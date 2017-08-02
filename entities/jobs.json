@@ -1,0 +1,126 @@
+{
+  "id": "7bf0ef41-b363-4b35-b947-eebd80853041",
+  "name": "jobs",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "NGO",
+      "synonyms": [
+        "NGO  jobs",
+        "nonprofit jobs",
+        "social policy jobs"
+      ]
+    },
+    {
+      "value": "Congress",
+      "synonyms": [
+        "Congressional internships",
+        "Congressional member",
+        "Senate jobs",
+        "House jobs",
+        "House of Representative jobs",
+        "U.S. Senate jobs",
+        "Congressional committee job",
+        "legislative assistant jobs",
+        "speechwriter jobs",
+        "press secretary jobs",
+        "CBO jobs",
+        "Congressional",
+        "Congressional Budget Office",
+        "legislative proposal analysis",
+        "budgetary analysis jobs",
+        "GAO",
+        "government accountability office jobs",
+        "legislative proposal",
+        "Congressional committee jobs",
+        "Congressional office jobs",
+        "Congressional staff jobs",
+        "Congressional jobs"
+      ]
+    },
+    {
+      "value": "White House",
+      "synonyms": [
+        "White House jobs",
+        "jobs with the Administration",
+        "White House internships",
+        "White House career"
+      ]
+    },
+    {
+      "value": "think tank",
+      "synonyms": [
+        "think tank jobs",
+        "Brookings jobs",
+        "Urban Institute  jobs",
+        "Heritage",
+        "Cato Institute  jobs",
+        "American Enterprise Institute",
+        "AEI",
+        "Center for American Progress"
+      ]
+    },
+    {
+      "value": "federal government",
+      "synonyms": [
+        "federal government jobs",
+        "USAJobs.Gov"
+      ]
+    },
+    {
+      "value": "consulting",
+      "synonyms": [
+        "consulting jobs",
+        "PwC",
+        "Deloitte"
+      ]
+    },
+    {
+      "value": "international development",
+      "synonyms": [
+        "international development jobs",
+        "world bank  jobs",
+        "IMF jobs",
+        "international monetary fund jobs"
+      ]
+    },
+    {
+      "value": "healthcare",
+      "synonyms": [
+        "healthcare jobs",
+        "Kaiser jobs"
+      ]
+    },
+    {
+      "value": "technology",
+      "synonyms": [
+        "technology jobs",
+        "tech jobs",
+        "tech policy jobs",
+        "machine learning jobs",
+        "data science jobs",
+        "data scientist jobs"
+      ]
+    },
+    {
+      "value": "internship",
+      "synonyms": [
+        "internship"
+      ]
+    },
+    {
+      "value": "career",
+      "synonyms": [
+        "career"
+      ]
+    },
+    {
+      "value": "jobs",
+      "synonyms": [
+        "jobs"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

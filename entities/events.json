@@ -1,0 +1,249 @@
+{
+  "id": "a7e8829c-a2fd-41c5-ae31-9b0a53b780d4",
+  "name": "events",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "economic events",
+      "synonyms": [
+        "economic events",
+        "economic policy events",
+        "central banking events",
+        "labor market events",
+        "macroeconomic events",
+        "international economic events",
+        "economic forums",
+        "economic discussions",
+        "economic panel",
+        "macroeconomic panels",
+        "economic growth events",
+        "market events",
+        "market briefings",
+        "economic briefings",
+        "economic policy briefings",
+        "economic seminar"
+      ]
+    },
+    {
+      "value": "finance events",
+      "synonyms": [
+        "finance events",
+        "financial policy events",
+        "financial market events",
+        "financial regulation events",
+        "banking events",
+        "banking policy events",
+        "financial crisis events",
+        "capital and liquidity events",
+        "international finance events",
+        "currency events",
+        "financial inclusion events",
+        "fair lending events",
+        "finance forums",
+        "banking forums",
+        "finance panels",
+        "financial policy events",
+        "financial policy forums",
+        "finance seminars",
+        "financial policy seminars",
+        "banking seminars",
+        "international finance forums",
+        "banking panels",
+        "finance briefing"
+      ]
+    },
+    {
+      "value": "tech events",
+      "synonyms": [
+        "tech  events",
+        "tech policy events",
+        "technology  events",
+        "tech innovation events",
+        "big data  events",
+        "data analytics events",
+        "AI events",
+        "artificial intelligence events",
+        "blockchain events",
+        "distributed ledger events",
+        "machine learning events",
+        "tech forums",
+        "technology forums",
+        "innovation forums"
+      ]
+    },
+    {
+      "value": "education events",
+      "synonyms": [
+        "education policy events",
+        "school voucher events",
+        "public school events",
+        "education reform events",
+        "k-12 events",
+        "education panels",
+        "education discussions",
+        "education policy briefings",
+        "education briefings",
+        "education events",
+        "education reform events",
+        "public education forums",
+        "education policy panels",
+        "education investments events",
+        "education seminars"
+      ]
+    },
+    {
+      "value": "fiscal events",
+      "synonyms": [
+        "fiscal events",
+        "fiscal policy events",
+        "budget events",
+        "infrastructure events",
+        "taxes events",
+        "tax policy events",
+        "debt policy events",
+        "deficit events",
+        "government spending events",
+        "government investments events",
+        "entitlement spending events",
+        "social security events",
+        "infrastructure investment events",
+        "tax reform events",
+        "fiscal reform events",
+        "fiscal spending events",
+        "taxation events",
+        "public finance events",
+        "fiscal policy discussions",
+        "entitlement discussions",
+        "fiscal policy forums",
+        "federal fiscal policy events",
+        "public finance panels",
+        "budget seminar"
+      ]
+    },
+    {
+      "value": "health events",
+      "synonyms": [
+        "health policy events",
+        "health reform events",
+        "mental health events",
+        "public health events",
+        "health events",
+        "hospital events",
+        "medical events",
+        "health care events",
+        "health forums",
+        "health discussion",
+        "health care forums",
+        "health care panel",
+        "ACA events",
+        "Affordable Health Care forums",
+        "health care seminars",
+        "health seminar"
+      ]
+    },
+    {
+      "value": "development events",
+      "synonyms": [
+        "international development events",
+        "global development events",
+        "development events",
+        "poverty reduction events",
+        "inequality events",
+        "human development events",
+        "UN events",
+        "united nations events",
+        "world bank events",
+        "developing countries events",
+        "emerging markets events",
+        "foreign aid events",
+        "development forums",
+        "development discussions",
+        "foreign aid discussions",
+        "global aid forums"
+      ]
+    },
+    {
+      "value": "foreign policy events",
+      "synonyms": [
+        "foreign policy events",
+        "international relations events",
+        "IR events",
+        "defense policy events",
+        "security events",
+        "intelligence events",
+        "nuclear proliferation events",
+        "China events",
+        "Korea events",
+        "Latin American events",
+        "Africa events",
+        "foreign policy forums",
+        "international relations forums",
+        "security forums",
+        "foreign policy briefings",
+        "foreign policy seminars",
+        "foreign policy panels",
+        "Russia events",
+        "military policy events",
+        "foreign policy seminar"
+      ]
+    },
+    {
+      "value": "Congressional events",
+      "synonyms": [
+        "Congress events",
+        "Congressional events",
+        "Congressional hearings",
+        "committee hearings",
+        "legislative sessions",
+        "legislative events"
+      ]
+    },
+    {
+      "value": "White House events",
+      "synonyms": [
+        "White House events",
+        "White House panel",
+        "White House events",
+        "White House seminar",
+        "White House briefing",
+        "White House press briefing"
+      ]
+    },
+    {
+      "value": "energy events",
+      "synonyms": [
+        "energy events",
+        "energy policy events",
+        "renewable energy events",
+        "energy market events",
+        "green initiative events",
+        "global warming events",
+        "global warming forums",
+        "climate change events",
+        "climate change forums",
+        "environmental events",
+        "evironmental policy events",
+        "energy security events",
+        "forestry events",
+        "environmental events",
+        "environmental forums",
+        "energy forums",
+        "energy seminars",
+        "environmental seminars",
+        "green initiative forums",
+        "environmental policy seminars",
+        "climate change seminars",
+        "energy discussion",
+        "energy briefing",
+        "energy conversation",
+        "energy dialogue",
+        "energy policy conversation",
+        "environmental conversation",
+        "environmental dialogue",
+        "climate change forums"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

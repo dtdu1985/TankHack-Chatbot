@@ -1,0 +1,80 @@
+{
+  "id": "2ac7e718-e4b2-4bf1-afcc-2c4a0d7f1e35",
+  "name": "menu_choice",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "event",
+      "synonyms": [
+        "event",
+        "events",
+        "forums",
+        "webinars",
+        "seminars",
+        "luncheon",
+        "meeting",
+        "convention",
+        "conference",
+        "meet and greet",
+        "committee hearing",
+        "press conference",
+        "panel",
+        "panel discussion",
+        "briefing",
+        "special program"
+      ]
+    },
+    {
+      "value": "expert",
+      "synonyms": [
+        "expert",
+        "distinguished expert",
+        "panelist",
+        "scholar",
+        "researcher",
+        "academic",
+        "fellow",
+        "specialist",
+        "bureaucrat",
+        "official",
+        "columnist",
+        "contributor"
+      ]
+    },
+    {
+      "value": "job",
+      "synonyms": [
+        "jobs",
+        "internships",
+        "career",
+        "careerpath",
+        "fellowship",
+        "fellowship program",
+        "externship",
+        "internship",
+        "job"
+      ]
+    },
+    {
+      "value": "org",
+      "synonyms": [
+        "org",
+        "organization",
+        "agency",
+        "firm",
+        "institution",
+        "university",
+        "college",
+        "institute"
+      ]
+    },
+    {
+      "value": "experts",
+      "synonyms": [
+        "experts"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

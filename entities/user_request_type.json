@@ -1,0 +1,15 @@
+{
+  "id": "0f809444-637b-48e3-8895-8c3b4be38c25",
+  "name": "user_request_type",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "@user_request:user_request @menu_choice:menu @forum:forum",
+      "synonyms": [
+        "@user_request:user_request @menu_choice:menu @forum:forum"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": false
+}

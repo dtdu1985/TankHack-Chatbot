@@ -1,0 +1,56 @@
+{
+  "id": "55d8b159-96c5-4b61-ad77-60b5b71657f6",
+  "name": "data",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "economic data",
+      "synonyms": [
+        "economic"
+      ]
+    },
+    {
+      "value": "health data",
+      "synonyms": [
+        "health"
+      ]
+    },
+    {
+      "value": "energy data",
+      "synonyms": [
+        "energy data",
+        "environmental data",
+        "climate change data",
+        "global warming data",
+        "energy analytics",
+        "climate change analytics"
+      ]
+    },
+    {
+      "value": "finance data",
+      "synonyms": [
+        "finance"
+      ]
+    },
+    {
+      "value": "education data",
+      "synonyms": [
+        "education"
+      ]
+    },
+    {
+      "value": "tech data",
+      "synonyms": [
+        "tech"
+      ]
+    },
+    {
+      "value": "foreign policy data",
+      "synonyms": [
+        "foreign policy"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

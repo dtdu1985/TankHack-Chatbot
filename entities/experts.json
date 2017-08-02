@@ -1,0 +1,160 @@
+{
+  "id": "1af587ed-8cb5-4dc4-a343-bd0516e834a6",
+  "name": "experts",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "economics",
+      "synonyms": [
+        "economic experts",
+        "central banking experts",
+        "financial economic experts",
+        "fiscal policy experts",
+        "monetary policy experts",
+        "macroeconomic experts",
+        "housing experts",
+        "mortgage experts",
+        "labor market experts",
+        "economic growth experts",
+        "federal budget experts",
+        "federal reserve experts",
+        "economic policy experts",
+        "economic policy specialists",
+        "economic specialists"
+      ]
+    },
+    {
+      "value": "health care",
+      "synonyms": [
+        "health care",
+        "health care experts",
+        "public health experts",
+        "health reform experts",
+        "mental health experts",
+        "ACA experts",
+        "Medicaid experts",
+        "Medicare experts",
+        "hospital experts",
+        "population experts",
+        "bioinformatics experts",
+        "biomedical engineer experts",
+        "health management experts",
+        "precision medicine experts",
+        "medical experts",
+        "health policy experts",
+        "health specialists"
+      ]
+    },
+    {
+      "value": "foreign policy",
+      "synonyms": [
+        "foreign policy  experts",
+        "IR experts",
+        "international relations experts",
+        "defense policy experts",
+        "national security experts",
+        "international security experts",
+        "military experts",
+        "intelligence experts",
+        "Russia experts",
+        "China experts",
+        "Middle East experts",
+        "defense specialist",
+        "intelligence specialist"
+      ]
+    },
+    {
+      "value": "education",
+      "synonyms": [
+        "education experts",
+        "school choice experts",
+        "school voucher experts",
+        "public education experts",
+        "early childhood ed experts",
+        "early childhood education experts",
+        "education reform experts",
+        "education policy experts",
+        "education policy specialists",
+        "education policy professions"
+      ]
+    },
+    {
+      "value": "energy",
+      "synonyms": [
+        "energy experts",
+        "renewable energy  experts",
+        "oil experts",
+        "electric car experts",
+        "global warming experts",
+        "climate change experts",
+        "energy policy experts"
+      ]
+    },
+    {
+      "value": "tech",
+      "synonyms": [
+        "tech experts",
+        "tech policy experts",
+        "technology policy experts",
+        "blockchain experts",
+        "blockchain policy experts",
+        "blockchain regulation experts",
+        "cybersecurity experts",
+        "cyber security experts",
+        "Internet experts",
+        "cyber warfare experts",
+        "cyberwarfare experts"
+      ]
+    },
+    {
+      "value": "finance",
+      "synonyms": [
+        "finance  experts",
+        "financial policy  experts",
+        "financial regulation experts",
+        "financial supervision experts",
+        "financial markets experts",
+        "banking regulation experts",
+        "banking policy experts",
+        "capital and liquidity experts",
+        "Basel  experts",
+        "financial crises experts",
+        "financial history experts",
+        "Islamic finance experts",
+        "securitization experts",
+        "banking specialists"
+      ]
+    },
+    {
+      "value": "fiscal",
+      "synonyms": [
+        "fiscal",
+        "fiscal policy experts",
+        "public finance experts",
+        "federal budget experts",
+        "state budget experts",
+        "tax experts",
+        "tax policy experts",
+        "tax reform experts",
+        "tax credits experts",
+        "budget specialists"
+      ]
+    },
+    {
+      "value": "history",
+      "synonyms": [
+        "historian experts",
+        "economic history experts",
+        "presidential history experts",
+        "U.S. history experts",
+        "European history experts",
+        "Cold War experts",
+        "historian",
+        "presidential historian",
+        "history experts"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

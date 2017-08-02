@@ -1,0 +1,24 @@
+{
+  "id": "f608fb05-62af-491d-8ad5-205a5f94d6e5",
+  "name": "user_request",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "connect me",
+      "synonyms": [
+        "I want",
+        "I need",
+        "I like",
+        "I would like",
+        "connect me",
+        "I\u0027d like",
+        "I\u0027m interested in",
+        "I\u0027m looking for",
+        "connect me with",
+        "connect me to"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
