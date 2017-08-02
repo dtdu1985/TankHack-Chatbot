@@ -1,0 +1,323 @@
+{
+  "userSays": [
+    {
+      "id": "8194189f-d273-47a7-be58-b755863a269c",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "environmental",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " briefings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "937e8ffb-0296-48bd-9fc1-bd84c98a88ae",
+      "data": [
+        {
+          "text": "energy discussions",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "579857e2-0842-4173-99c2-ec04a78aa100",
+      "data": [
+        {
+          "text": "list of "
+        },
+        {
+          "text": "energy forums",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3b98d30-f185-417c-b46a-09dd75636116",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " a list of "
+        },
+        {
+          "text": "energy events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b9fc5d6-b46c-43ce-8c0c-b82e23078813",
+      "data": [
+        {
+          "text": "any good "
+        },
+        {
+          "text": "energy discussions",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "809dc4e6-b8b2-4a25-87ae-95a7743cc473",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " options for "
+        },
+        {
+          "text": "environmental events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c3fb36df-b648-4af5-be60-0ad3d99b2afc",
+      "data": [
+        {
+          "text": "I\u0027m looking "
+        },
+        {
+          "text": "global warming events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f8d926b-8ccd-4073-9c00-4916892d5c8c",
+      "data": [
+        {
+          "text": "I\u0027m looking for "
+        },
+        {
+          "text": "climate change forums",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "04926c96-ceea-4149-a647-01bc273033b6",
+      "data": [
+        {
+          "text": "Give me options for "
+        },
+        {
+          "text": "energy policy events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c2423c1-9b8f-4f37-85f1-f08a767301b0",
+      "data": [
+        {
+          "text": "I want a list of "
+        },
+        {
+          "text": "energy events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "689d172d-6e10-4286-9070-144482726905",
+  "name": "events.energy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@events",
+          "name": "events",
+          "value": "$events",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Aspen Institute Events",
+          "subtitle": "Energy, environment policy, water forum, nuclear energy, energy innovation",
+          "imageUrl": "https://assets.aspeninstitute.org/content/uploads/files/content/images/20160961510_fa41d0cc50_z.jpg",
+          "buttons": [
+            {
+              "text": "Aspen Institute Events",
+              "postback": "https://www.aspeninstitute.org/programs/energy-and-environment-program/events/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "World Resources Institute",
+          "subtitle": "climate action, global warming, sustainable development",
+          "imageUrl": "https://www.wri.org/sites/default/files/styles/whats_happening/public/01_Institutional_23747830545_d92a19f2b7_o.jpg?itok\u003dFMQ5kak9",
+          "buttons": [
+            {
+              "text": "WRI Events",
+              "postback": "http://www.wri.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Worldwatch Institute Events",
+          "imageUrl": "http://www.worldwatch.org/system/files/WW%20Color%20Logo_Green%20Blue_1.JPG",
+          "buttons": [
+            {
+              "text": "Worldwatch Events",
+              "postback": "http://www.worldwatch.org/upcoming_events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Climate and Energy Solutions",
+          "subtitle": "energy policy, greenhouse emissions, clean energy, climate impact",
+          "imageUrl": "https://www.c2es.org/docUploads/annual-report-2015-16-cover.png",
+          "buttons": [
+            {
+              "text": "C2ES Events",
+              "postback": "https://www.c2es.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Resources for the Future",
+          "subtitle": "smarter policies, natural resources, environment",
+          "imageUrl": "http://www.rff.org/files/sharepoint/PublishingImages/Events/gina-mccarthy-and-phil-sharp.jpg",
+          "buttons": [
+            {
+              "text": "Resources for the Future",
+              "postback": "http://www.rff.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center on Strategy \u0026 International Studies",
+          "subtitle": "energy \u0026 international security",
+          "imageUrl": "https://cdn-images-1.medium.com/max/800/1*ZEwHK8Uxlwrh4IFZJ4ySuQ.jpeg",
+          "buttons": [
+            {
+              "text": "CSIS Energy \u0026 Security",
+              "postback": "https://www.csis.org/events?f[0]\u003dfield_categories%253Afield_programs%3A328"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Energy \u0026 Environmental Policy Research",
+          "subtitle": "MIT Center Energy \u0026 Environmental Policy Research",
+          "imageUrl": "https://www.allacronyms.com/624500rbot.png",
+          "buttons": [
+            {
+              "text": "MIT Center",
+              "postback": "http://ceepr.mit.edu/events"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Some interesting $events (briefings, panels..) to watch out for:",
+            "Hope these $events (briefings) interest you:"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,325 @@
+{
+  "userSays": [
+    {
+      "id": "e1cd3487-fbd2-4e19-8a05-f6292fa4403b",
+      "data": [
+        {
+          "text": "research on financial markets"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f2b95fd-fd8a-48e9-808c-1a922785937b",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "financial stability",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2c1409c-f7a5-4610-97a6-a57ba75a26cc",
+      "data": [
+        {
+          "text": "I\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "systemic risk",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " analysis"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc775399-9d80-4e79-abbf-26d658580e80",
+      "data": [
+        {
+          "text": "I like",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "international finance",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2cebf5c8-9fc6-44c8-899f-4bd023c0c522",
+      "data": [
+        {
+          "text": "I\u0027m interested "
+        },
+        {
+          "text": "financial reform",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb2e59f7-80a4-4d06-a117-cd7e81ebcb1b",
+      "data": [
+        {
+          "text": "i like "
+        },
+        {
+          "text": "currency crises",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be023dd5-6006-4c40-ae39-7a5f4e8c469d",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "international finance",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "074e84c0-b06d-4d22-a9d2-3f11973b80cb",
+      "data": [
+        {
+          "text": "I like",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " financial policy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "94d5d248-e782-4bd7-8339-253bb76fbdf1",
+      "data": [
+        {
+          "text": "i like",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "financial reform",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fe75fbf3-0d5d-4dcc-be66-3dc2d2a7b5a2",
+      "data": [
+        {
+          "text": "need a list of financial regulation issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1373412d-9e76-421e-a9b7-53dc523175e1",
+      "data": [
+        {
+          "text": "i\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " financial crisis research"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f9df70b-b0f9-437b-a6aa-162bedc9690f",
+      "data": [
+        {
+          "text": "I\u0027m interest in "
+        },
+        {
+          "text": "banking",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " analysis"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "628e9914-2c62-412c-b0ee-68273a74cda9",
+      "data": [
+        {
+          "text": "I\u0027m interested "
+        },
+        {
+          "text": "banking",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " policy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9f9d81b0-ba71-42c9-9d7c-ad7c1d9c968e",
+  "name": "issues.finance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "International for International Economics",
+          "subtitle": "banking, capital, trade finance, currency conflict, international monetary policy",
+          "imageUrl": "https://i.ytimg.com/vi/FJLWwZCDyys/maxresdefault.jpg",
+          "buttons": [
+            {
+              "text": "IIE Finance \u0026 International Econ",
+              "postback": "https://piie.com/research/finance"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Council on Foreign Relations",
+          "subtitle": "financial markets, monetary policy",
+          "imageUrl": "https://www.cfr.org/sites/default/files/styles/book_large_l/public/image/2017/01/Global%20Imbalances%20front%20cover.jpg?itok\u003dwFWUVyT8",
+          "buttons": [
+            {
+              "text": "CFR Finance",
+              "postback": "https://www.cfr.org/economics/financial-markets"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institution",
+          "subtitle": "finance, fiscal, monetary policy",
+          "imageUrl": "http://hutchinsfamilyfoundation.org/assets/img/logo-hutchins-center-fiscal-monetary-policy.png",
+          "buttons": [
+            {
+              "text": "Brookings Hutchins Center",
+              "postback": "https://www.brookings.edu/center/the-hutchins-center-on-fiscal-and-monetary-policy/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Cato Institute",
+          "subtitle": "Finance, banking \u0026 monetary policy",
+          "imageUrl": "https://object.cato.org/sites/cato.org/files/styles/resp__img__homepage-items__default-2x/public/raslider/201610_states_0.jpg?itok\u003dvi3CLdIW\u0026timestamp\u003d1495654257",
+          "buttons": [
+            {
+              "text": "Cato Institute",
+              "postback": "https://www.cato.org/research/finance-banking-monetary-policy"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "hope you find these relevant:"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

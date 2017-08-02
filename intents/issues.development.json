@@ -1,0 +1,121 @@
+{
+  "userSays": [
+    {
+      "id": "0eaaba67-ea5a-43cc-8a64-bc7e5f680595",
+      "data": [
+        {
+          "text": "I\u0027m focusing on "
+        },
+        {
+          "text": "human development issues",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c259fd3-7115-46a6-a80f-c482375f8b20",
+      "data": [
+        {
+          "text": "I\u0027m passionated about "
+        },
+        {
+          "text": "economic development",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93fd30b3-eba5-459e-b1dc-4274975615da",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " trending research on "
+        },
+        {
+          "text": "poverty reduction issues",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b73cdfc-8a20-4dd3-8f80-06e86702de46",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "international development",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "31678f0a-d66d-4166-9804-937096835a26",
+  "name": "issues.development",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Some useful things for you on $forum."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

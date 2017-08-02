@@ -1,0 +1,194 @@
+{
+  "userSays": [
+    {
+      "id": "f1afd7b5-267b-454c-b7d8-9345b9fa181c",
+      "data": [
+        {
+          "text": "interested in renewable "
+        },
+        {
+          "text": "energy data",
+          "alias": "data",
+          "meta": "@data",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea4361d5-c34a-44b6-8dfc-065fb83bf208",
+      "data": [
+        {
+          "text": "get me "
+        },
+        {
+          "text": "climate change analytics",
+          "alias": "data",
+          "meta": "@data",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5cedaf4c-7aba-4508-871c-85c69cd1526f",
+      "data": [
+        {
+          "text": "get me "
+        },
+        {
+          "text": "environmental data",
+          "alias": "data",
+          "meta": "@data",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69e55c70-8c31-492a-90c5-92fdf8372257",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "environmental analytics",
+          "alias": "data",
+          "meta": "@data",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b0873f5-3661-42b2-aaa6-141d7592f705",
+      "data": [
+        {
+          "text": "global warming data",
+          "alias": "data",
+          "meta": "@data",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "826d826f-21f5-4a0c-99e9-dfd52f8359c6",
+      "data": [
+        {
+          "text": "climate change data",
+          "alias": "data",
+          "meta": "@data",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f3d76bd1-0b6c-4c9b-bce4-b879a9769ae1",
+      "data": [
+        {
+          "text": "environmental data",
+          "alias": "data",
+          "meta": "@data",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7232cba-6e83-4b3b-893d-38a6564a2111",
+      "data": [
+        {
+          "text": "energy data",
+          "alias": "data",
+          "meta": "@data",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c8d6924d-5f15-4599-a9bc-e7294c88ca5f",
+  "name": "data.energy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@data",
+          "name": "data",
+          "value": "$data",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "U.S. Energy Info Administration Open Data",
+          "subtitle": "Open energy data, analytics, widgets, API",
+          "imageUrl": "https://www.eia.gov/pressroom/releases/images/2015_05_figure1.png",
+          "buttons": [
+            {
+              "text": "EIA Open Energy Data",
+              "postback": "https://www.eia.gov/opendata/widgets.php"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "World Bank Environmental Data",
+          "subtitle": "Global open data",
+          "imageUrl": "https://blogs.worldbank.org/files/publicsphere/bubble%20graph.jpg",
+          "buttons": [
+            {
+              "text": "World Bank Data",
+              "postback": "http://data.worldbank.org/topic/environment"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Data.Gov Energy + Environmental",
+          "subtitle": "Renewable energy data, analytics, API",
+          "imageUrl": "https://logd.tw.rpi.edu/sites/default/files/energy_mashup_screenshot.png",
+          "buttons": [
+            {
+              "text": "Renewable Energy Data",
+              "postback": "https://catalog.data.gov/dataset?tags\u003drenewable-energy"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Here are useful $data for you.",
+            "Check out these $data."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

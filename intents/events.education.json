@@ -1,0 +1,260 @@
+{
+  "userSays": [
+    {
+      "id": "5152006c-d717-451f-aaa0-ea71ffcd9f92",
+      "data": [
+        {
+          "text": "you have anything on "
+        },
+        {
+          "text": "education briefings",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "487bc5a1-222e-499b-aa58-4bad94a0d9ad",
+      "data": [
+        {
+          "text": "Give me options for "
+        },
+        {
+          "text": "education panels",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86eb448f-65ea-482e-bbcf-789778e262a0",
+      "data": [
+        {
+          "text": "I want a list of "
+        },
+        {
+          "text": "education reform events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd1d2498-4abb-41c4-abbf-1a19a13ebd40",
+      "data": [
+        {
+          "text": "I\u0027m passionated about "
+        },
+        {
+          "text": "education policy events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20a87127-c27d-46fb-b7cd-1d040bb5332d",
+      "data": [
+        {
+          "text": "what are my options for "
+        },
+        {
+          "text": "education reform events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e505dd8-b19e-4d23-8f41-d39e3020bbce",
+      "data": [
+        {
+          "text": "i like",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "education",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "events",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2b5d19a-cf70-41cb-9896-7eb18ecac7a9",
+      "data": [
+        {
+          "text": "give me a list of "
+        },
+        {
+          "text": "education",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "events",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2f8839b8-b7a0-4f88-9471-159553ff6b3c",
+  "name": "events.education",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@events",
+          "name": "events",
+          "value": "$events",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institution",
+          "imageUrl": "https://thumborcdn.acast.com/TU9CCeST7Z99Zwb_SbMfFCKcDBY\u003d/smart/filters:quality(80)/static.libsyn.com%2Fp%2Fassets%2F5%2Fc%2Fc%2F6%2F5cc6ebfc828f101e%2Fevents-audio-podcast_1.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Events",
+              "postback": "https://www.brookings.edu/events/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "New America Foundation",
+          "imageUrl": "https://na-production.s3.amazonaws.com/images/newamericaconference142.original.jpg",
+          "buttons": [
+            {
+              "text": "New America Foundation Events",
+              "postback": "https://www.newamerica.org/events/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute",
+          "imageUrl": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/14334383_570187873177953_7262887270603030528_n.jpg",
+          "buttons": [
+            {
+              "text": "AEI Events",
+              "postback": "http://www.aei.org/events/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Heritage Foundation Education",
+          "imageUrl": "http://s3.reutersmedia.net/resources/r/?m\u003d02\u0026d\u003d20170502\u0026t\u003d2\u0026i\u003d1182972882\u0026w\u003d780\u0026fh\u003d\u0026fw\u003d\u0026ll\u003d\u0026pl\u003d\u0026sq\u003d\u0026r\u003dLYNXMPED411GL",
+          "buttons": [
+            {
+              "text": "Heritage Foundation Events",
+              "postback": "http://www.heritage.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "The Century Foundation Education",
+          "imageUrl": "https://production-tcf.imgix.net/app/uploads/2017/01/21214925/13563211545_75f9417950_k.jpg?w\u003d1280\u0026h\u003d1280\u0026fit\u003dmax",
+          "buttons": [
+            {
+              "text": "Century Foundation Events",
+              "postback": "https://production-tcf.imgix.net/app/uploads/2017/01/21214925/13563211545_75f9417950_k.jpg?w\u003d1280\u0026h\u003d1280\u0026fit\u003dmax"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for American Progress Events",
+          "imageUrl": "https://www.eenews.net/image_assets/2016/11/image_asset_14182.jpg",
+          "buttons": [
+            {
+              "text": "CAP Events",
+              "postback": "https://www.americanprogress.org/?post_type\u003devent"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Prominent places that hosts #events (forums, briefings, etc):",
+            "Check out some of these #events (forums, briefings, etc):"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

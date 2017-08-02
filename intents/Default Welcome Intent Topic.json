@@ -1,0 +1,225 @@
+{
+  "userSays": [
+    {
+      "id": "b460af61-d507-48db-b0eb-3a858afaed2f",
+      "data": [
+        {
+          "text": "I like",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "financial crises events",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5650e1ec-1d9d-45de-bc88-bc4e854d4eaa",
+      "data": [
+        {
+          "text": "Give me a list of economic "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c6e09dd-7a76-4c6b-9398-e9ac232bb0d8",
+      "data": [
+        {
+          "text": "I like "
+        },
+        {
+          "text": "big data",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "forums",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ebfa1f6-c2cf-4563-b68e-1f42d73f9fd7",
+      "data": [
+        {
+          "text": "give me options on "
+        },
+        {
+          "text": "tech",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " policy discussions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9d2e965e-2ecc-4fb7-8157-bd6fed22622b",
+      "data": [
+        {
+          "text": "economic "
+        },
+        {
+          "text": "events",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a608e3a5-7555-4e94-98ea-1f9d0f6bf9e4",
+      "data": [
+        {
+          "text": "How about "
+        },
+        {
+          "text": "foreign policy",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "forums",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e45b7bbd-3089-487e-887b-2b0b997ef91a",
+      "data": [
+        {
+          "text": "I want a "
+        },
+        {
+          "text": "public health",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "expert",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b86ab30-1c78-4622-9d5a-814b377ff510",
+      "data": [
+        {
+          "text": "I\u0027m passionated about "
+        },
+        {
+          "text": "health care",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " events"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cb1aed38-d23c-4a59-aabd-16e0cc9e4da7",
+      "data": [
+        {
+          "text": "How about "
+        },
+        {
+          "text": "education",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " events"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "737b6238-ad74-4352-8bc5-b0e83375cf6c",
+  "name": "Default Welcome Intent Topic",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Got it. You\u0027re looking for $menu_choice in $topic ($forum)"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

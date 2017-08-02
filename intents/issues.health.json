@@ -1,0 +1,385 @@
+{
+  "userSays": [
+    {
+      "id": "8ec7cc57-a1e6-4276-9a2f-23ecb0808db6",
+      "data": [
+        {
+          "text": "interested in affordable "
+        },
+        {
+          "text": "health",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ccfb880-a5e0-44b6-bcb2-c13d5df9fa36",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "public health",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f407a13a-cecf-47f6-b9f6-5ef458a737e6",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "health care",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb2f8a83-a60c-4126-93ff-d7ecd189bc7c",
+      "data": [
+        {
+          "text": "material on "
+        },
+        {
+          "text": "health care",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d046a5c7-f7eb-4a6b-8ee6-6fa3d8d1c10c",
+      "data": [
+        {
+          "text": "research on "
+        },
+        {
+          "text": "health care",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " reform"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b19462e4-23a1-4758-a650-25ea95153593",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "health care",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " research"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0444826-71bc-4816-a8de-77d08a729712",
+      "data": [
+        {
+          "text": "need "
+        },
+        {
+          "text": "health care",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " analysis"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef89919b-207a-49df-bdbc-42ea4fbee2c1",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "health care",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " research"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8b421bd-ed2c-4f0c-9709-a56f648232a1",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "Medicare",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " research"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9c66608-c3c2-4a76-8c7b-441f9bee078d",
+      "data": [
+        {
+          "text": "anything on "
+        },
+        {
+          "text": "Medicaid",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " issues?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee73b9ee-b40d-4532-a33e-5bd97db865b4",
+      "data": [
+        {
+          "text": "I want to learn about Affordable Health Care Act"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5791a80c-881c-4f34-81ad-92f4b9bf19d9",
+      "data": [
+        {
+          "text": "I\u0027m passionated about "
+        },
+        {
+          "text": "mental health",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " reform"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c39a701-ebcc-4d80-91c4-f0e9bb4e1f50",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "public health",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "addbf346-46dd-4576-ba79-0b3179a1a1e4",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "health",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f1a654ca-a0e1-4bd3-af7f-c6d85640128e",
+  "name": "issues.health",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institutions health",
+          "subtitle": "center for health policy",
+          "imageUrl": "https://pbs.twimg.com/profile_images/456195559506706432/lc-H2cjE_400x400.png",
+          "buttons": [
+            {
+              "text": "Brookings Health",
+              "postback": "https://www.brookings.edu/health/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Urban Institute",
+          "subtitle": "health policy center",
+          "imageUrl": "http://www.urban.org/sites/all/themes/urban/images/logo.png",
+          "buttons": [
+            {
+              "text": "Urban Health Policy",
+              "postback": "http://www.urban.org/policy-centers/health-policy-center"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Bipartisan Policy Center",
+          "subtitle": "government spending, patient care, long term care, health innovation, food supply, health reform",
+          "imageUrl": "https://cdn.bipartisanpolicy.org/wp-content/gallery/future-of-health-care-federal-budget-and-state-choices/029_0234_BPC_Future_Health_Care.jpg",
+          "buttons": [
+            {
+              "text": "Bipartisan Policy Center",
+              "postback": "https://bipartisanpolicy.org/topics/health/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute - Health",
+          "imageUrl": "https://i.ytimg.com/vi/g0ffNTgL_-I/hq720.jpg",
+          "buttons": [
+            {
+              "text": "AEI Health Policy",
+              "postback": "http://www.aei.org/policy/health-care/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Economic Policy Institute",
+          "subtitle": "Affordable Care Act, Employer coverage, Medicaid, Medicare, Paid sick leave, Health costs,excise tax",
+          "imageUrl": "http://www.urban.org/sites/default/files/publication/90211/marketplace_characterize.jpg",
+          "buttons": [
+            {
+              "text": "EPI Health",
+              "postback": "http://www.epi.org/research/health/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Strategic \u0026 International Studies",
+          "subtitle": "Global health policy center",
+          "imageUrl": "https://csis-prod.s3.amazonaws.com/s3fs-public/styles/csis_banner/public/program/160129_ghpc_main_page.jpg?itok\u003dmmquYQY5",
+          "buttons": [
+            {
+              "text": "CSIS global health policy",
+              "postback": "https://www.csis.org/programs/global-health-policy-center"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Some useful research \u0026 analysis on $forum:",
+            "Hope this material on $forum serves you well:"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

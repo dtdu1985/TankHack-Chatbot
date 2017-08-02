@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "8d7e2689-db57-47f6-9141-d280038ce467",
+      "data": [
+        {
+          "text": "Can you connect me to forums on "
+        },
+        {
+          "text": "global inequality",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa3847a6-3c82-4f84-af47-eab1b86cbab5",
+      "data": [
+        {
+          "text": "I like learning about "
+        },
+        {
+          "text": "global development",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51d8d8e2-bfef-44f7-a5e3-4baec8805f18",
+      "data": [
+        {
+          "text": "I want events on "
+        },
+        {
+          "text": "poverty reduction",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8ffcca0-ca82-43ab-a929-1efe11054365",
+      "data": [
+        {
+          "text": "I\u0027m interested in "
+        },
+        {
+          "text": "international development",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4151ede0-c62c-4411-b52b-14989724280d",
+  "name": "job.development",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@jobs",
+          "name": "jobs",
+          "value": "$jobs",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Global Development",
+          "subtitle": "Issues: aid effectiveness, international institutions, poverty, inequality and growth",
+          "imageUrl": "https://www.cgdev.org/sites/default/files/styles/large/public/Center-for-Global-Development.jpg",
+          "buttons": [
+            {
+              "text": "Center for Global Development",
+              "postback": ""
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings - Global Development",
+          "subtitle": "Issues:",
+          "imageUrl": "https://lh5.googleusercontent.com/-bnjw3jjoeXc/AAAAAAAAAAI/AAAAAAAABGc/YqxpTlRaZsU/photo.jpg",
+          "buttons": [
+            {
+              "text": "Brookings - Global Development",
+              "postback": ""
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

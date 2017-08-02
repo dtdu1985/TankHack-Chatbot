@@ -1,0 +1,291 @@
+{
+  "userSays": [
+    {
+      "id": "08cc25a7-d760-4602-b2c3-e54d2b7d1ccf",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " budget discussions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f02d98a-d54b-46ea-9470-0b0ecfc03dee",
+      "data": [
+        {
+          "text": "I\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "fiscal policy discussions",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ffd6a2f2-82ab-481e-a167-d36f35318018",
+      "data": [
+        {
+          "text": "I\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "fiscal policy forums",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7cf348e5-3f1c-4231-9415-fabe5cb84307",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "fiscal policy events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6bb9b2e0-170c-480f-9ae8-f4d909a9c6ad",
+      "data": [
+        {
+          "text": "I would like",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "public finance events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2da9db17-5078-48a8-bf60-5071e84c42a7",
+      "data": [
+        {
+          "text": "I want to attend "
+        },
+        {
+          "text": "tax policy events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df61ccb1-de20-4381-9d84-deae25c367a5",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "government expenditures events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f5b79f0-e634-48c4-a98c-0c9f3033632d",
+      "data": [
+        {
+          "text": "get me a list of federal "
+        },
+        {
+          "text": "budget events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b95bf237-3e8b-4c6c-93c7-5810c65b28da",
+      "data": [
+        {
+          "text": "I want to attend "
+        },
+        {
+          "text": "fiscal policy events",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "94b5a87e-a022-4126-966c-df7fdcd672f5",
+  "name": "events.fiscal",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@events",
+          "name": "events",
+          "value": "$events",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for American Progress Events",
+          "subtitle": "fiscal reform, federal fiscal policy, tax policy, infrastructure investments, public investments",
+          "imageUrl": "http://genprogress.org/wp-content/uploads/2015/10/13152506/blog_post_image-800x267.jpg",
+          "buttons": [
+            {
+              "text": "CAP Events",
+              "postback": "https://www.americanprogress.org/events/upcoming-events/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Tax Policy Center Events",
+          "subtitle": "tax policy, tax reform, tax equity, federal budget, income tax, corporate tax",
+          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2016/06/20140123_TPC-Panel-3.jpg",
+          "buttons": [
+            {
+              "text": "Tax Policy Center Events",
+              "postback": "http://www.taxpolicycenter.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Urban Institute",
+          "subtitle": "Taxes, Housing Credits, Government Budget",
+          "imageUrl": "http://pfs.urban.org/sites/default/files/styles/pfs_banner_image_tall_1920x800/public/20151014_pay-for-success_thompson_0091-2.jpg?itok\u003dkcjyZA_z",
+          "buttons": [
+            {
+              "text": "Urban Institute",
+              "postback": "http://www.urban.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute",
+          "subtitle": "Public finance, fiscal policy",
+          "imageUrl": "http://www.valuesandcapitalism.com/wp-content/uploads/2016/12/conferencephoto-720x500.jpg",
+          "buttons": [
+            {
+              "text": "AEI Events",
+              "postback": "http://www.aei.org/events/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "US Senate Committee on Finance",
+          "subtitle": "federal budget proposals, entitlement spending, defense spending, public investments, social investments, tax credits, housing",
+          "imageUrl": "http://s3-origin-images.politico.com/2012/03/120307_senate_finance_committee_605_reuters.jpg",
+          "buttons": [
+            {
+              "text": "Senate Finance Committee",
+              "postback": "https://www.finance.senate.gov/hearings"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Ok. Hope these $events are helpful.",
+            "Here are some $events to consider.",
+            "How about these $events."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

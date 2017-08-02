@@ -1,0 +1,275 @@
+{
+  "userSays": [
+    {
+      "id": "108d8a8e-5925-4525-8241-9368b576b522",
+      "data": [
+        {
+          "text": "global warming",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "specialists",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ecfbdba7-e064-4d90-bbf9-eede2cd3b5dc",
+      "data": [
+        {
+          "text": "climate change",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "specialists",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c9f4e04-da87-44ba-b3be-b3ccdb66b076",
+      "data": [
+        {
+          "text": "energy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "specialists",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bfffa8f2-ad14-4172-97c8-e6ee77aba6d3",
+      "data": [
+        {
+          "text": "show me some major "
+        },
+        {
+          "text": "energy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66910dcd-4fc8-4dc5-b912-9140c0147e83",
+      "data": [
+        {
+          "text": "how about some "
+        },
+        {
+          "text": "climate change experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4847272a-4ea9-4b94-b799-9020292b6e2a",
+      "data": [
+        {
+          "text": "i want to connect to "
+        },
+        {
+          "text": "global warming experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "296fe6af-43f5-445a-9c2a-976c6c36c8f5",
+      "data": [
+        {
+          "text": "get me a list of "
+        },
+        {
+          "text": "energy policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0fdb497a-50d1-4fe8-956d-a606f1cc258a",
+  "name": "experts.energy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@experts",
+          "name": "experts",
+          "value": "$experts",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings energy experts",
+          "subtitle": "Global warming, climate change, renewable energy",
+          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2017/04/windfarm_ocean001.jpg",
+          "buttons": [
+            {
+              "text": "Brookings",
+              "postback": "https://www.brookings.edu/experts/?s\u003d\u0026topic\u003d\u0026pcp\u003dproject_energy-security-and-climate-initiative\u0026language\u003den\u0026status\u003dcurrent\u0026start_date\u003d\u0026end_date\u003d"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for American Progress",
+          "subtitle": "energy policy, China, Asia-Pacific, Chinese energy and climate policy",
+          "imageUrl": "https://cdn.americanprogress.org/wp-content/uploads/2016/09/27143830/AP_16201669469514-PREPPED.jpg",
+          "buttons": [
+            {
+              "text": "CAP experts",
+              "postback": "https://www.americanprogress.org/experts-by-issue/?termid\u003d21702/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Aspen Institute energy \u0026 environment experts",
+          "subtitle": "energy, environment policy",
+          "imageUrl": "https://www.aspeninstitute.ro/uploads/articole/EEU.jpg",
+          "buttons": [
+            {
+              "text": "Aspen Institute",
+              "postback": "https://www.aspeninstitute.org/team/our-experts/?program\u003d1120"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Carnegie Endowment for International Peace",
+          "subtitle": "climate, China, coal, oil, Middle East, international security",
+          "imageUrl": "http://prospect-hill.org/wordpress/wp-content/uploads/2015/08/20150323_CEIP_Nuclear_1809.jpg",
+          "buttons": [
+            {
+              "text": "Carnegie experts",
+              "postback": "http://carnegieendowment.org/experts"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Council on Foreign Relations",
+          "subtitle": "International security,",
+          "imageUrl": "http://arcticenergycenter.com/wp-content/uploads/2017/03/CFR-screengrab-870x350.jpg",
+          "buttons": [
+            {
+              "text": "CFR Energy \u0026 Environment Experts",
+              "postback": "https://www.cfr.org/experts?topics\u003d341\u0026regions\u003dAll\u0026sort_by\u003dfield_name_family\u0026sort_order\u003dASC"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "WorldWatch",
+          "subtitle": "Climate change, transportation, energy sources",
+          "imageUrl": "http://www.worldwatch-europe.org/sites/default/files/2.png",
+          "buttons": [
+            {
+              "text": "Worldwatch Energy Experts",
+              "postback": "http://www.worldwatch.org/node/1853"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "World Resources Experts",
+          "subtitle": "sustainable cities, climate policy, global energy, climate finance",
+          "imageUrl": "http://www.eco-business.com/media/_versions/ebmedia/fileuploads/10703397314_6fe621c7f0_k_news_featured.jpg",
+          "buttons": [
+            {
+              "text": "WRI Energy/Climate Experts",
+              "postback": "http://www.wri.org/about/experts-staff"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Alright, here is a list of $experts (specialists)",
+            "Hope these $experts (specialists) are a good start for you:"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

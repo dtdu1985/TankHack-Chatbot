@@ -1,0 +1,515 @@
+{
+  "userSays": [
+    {
+      "id": "00ca816a-8166-4071-a99c-ea3e87cdde1f",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " a list of "
+        },
+        {
+          "text": "banking",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ac7cebcc-c753-4bc4-a3c7-f7e9044dc946",
+      "data": [
+        {
+          "text": "give me a list of financial "
+        },
+        {
+          "text": "experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "42199ca6-ae5c-4a8f-bcd5-2122be54b6e5",
+      "data": [
+        {
+          "text": "I want",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "financial reform",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea1e7050-53f4-4a3c-9012-e6adb742a064",
+      "data": [
+        {
+          "text": "any "
+        },
+        {
+          "text": "public finance experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e04be3b4-8fa8-4df0-b602-e90a98846ac8",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " a list of "
+        },
+        {
+          "text": "international finance experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7ba5862-a575-4b39-a4bf-fe58287d4610",
+      "data": [
+        {
+          "text": "Who do you have for "
+        },
+        {
+          "text": "financial crises experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6606ff0-75e0-4ce5-b219-5892282a6a99",
+      "data": [
+        {
+          "text": "I want",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "financial history experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d90fd06-4d7b-4721-854d-db014590f203",
+      "data": [
+        {
+          "text": "I want",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "banking",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " supervision "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a952a48c-695a-4781-b0e3-e01166827d48",
+      "data": [
+        {
+          "text": "i want",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "banking policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92db93f7-c5e4-4090-9485-0ad773395a05",
+      "data": [
+        {
+          "text": "I\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "banking",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ade5bcf-7472-4d56-809f-a363174aa5a2",
+      "data": [
+        {
+          "text": "show me a list of "
+        },
+        {
+          "text": "financial regulation experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ff40989-69a4-448d-b681-08bdfec52738",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "financial policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1d2553b-4caf-476c-9f9c-876441c2ec49",
+      "data": [
+        {
+          "text": "i need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " a list of "
+        },
+        {
+          "text": "financial market experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e442349-584a-498a-9f31-8472d49a710a",
+      "data": [
+        {
+          "text": "connect me with",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "finance",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "90cd7c63-ee2c-48f5-86b0-835d0ccdc1de",
+  "name": "experts.finance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        },
+        {
+          "dataType": "@experts",
+          "name": "experts",
+          "value": "$experts",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute",
+          "subtitle": "Financial policy, financial crises, housing risk",
+          "imageUrl": "https://images.c-span.org/Files/6f9/20150722015353003_hd.jpg/Thumbs/height.630.no_border.width.1200.jpg",
+          "buttons": [
+            {
+              "text": "AEI - economic scholars",
+              "postback": "http://www.aei.org/scholars/economics/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Finance \u0026 Markets",
+          "subtitle": "Areas: regulation, financial markets, capital\u0026liquidity, Basel, Dodd-Frank",
+          "imageUrl": "https://i2.wp.com/www.brookings.edu/wp-content/uploads/2016/06/ben_bernanke003.jpg?fit\u003d410%2C9999px\u0026ssl\u003d1",
+          "buttons": [
+            {
+              "text": "Brookings Finance \u0026 Markets",
+              "postback": "https://www.brookings.edu/experts/?s\u003d\u0026topic\u003d\u0026pcp\u003dcenter_center-on-regulation-and-markets\u0026language\u003den\u0026status\u003dcurrent\u0026start_date\u003d\u0026end_date\u003d"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Federal Reserve Board",
+          "subtitle": "Financial Stability",
+          "imageUrl": "http://www.federal-reserve.org/federal-reserve-480.jpg",
+          "buttons": [
+            {
+              "text": "Fed Board Financial Stability",
+              "postback": "https://www.federalreserve.gov/econres/fsprstaff.htm"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Federal Reserve Board",
+          "subtitle": "Financial Regulation and Supervision",
+          "imageUrl": "https://www.federalreserve.gov/newsevents/speech/files/powell-fig12-20170328.png",
+          "buttons": [
+            {
+              "text": "Fed Board Regulation"
+            },
+            {
+              "text": "https://www.federalreserve.gov/econres/bsrstaff.htm"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Federal Deposit Insurance Corp",
+          "subtitle": "banking, deposits, financial stability, bank runs, great depression, financial history, capital \u0026 liquidity regulation",
+          "imageUrl": "http://rawlsnews.ba.ttu.edu/wp-content/uploads/Hein-FDIC-2.jpg",
+          "buttons": [
+            {
+              "text": "FDIC researchers",
+              "postback": "https://www.fdic.gov/bank/analytical/cfr/staff.html"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Georgetown Center for Financial Markets \u0026 Policy",
+          "subtitle": "financial markets, regulation, supervision, Basel, financial reform, high frequency trading, Dodd-Frank",
+          "imageUrl": "https://image.isu.pub/120928184935-58e1aba2f1d045f695fe4cf3a110b8e1/jpg/page_1.jpg",
+          "buttons": [
+            {
+              "text": "GT Financial Markets Policy",
+              "postback": "http://finpolicy.georgetown.edu/research"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "George Mason Mercatus Center",
+          "subtitle": "financial markets, securities regulation, dodd-frank, consumer finance, financial crisis, monetary policy",
+          "imageUrl": "https://www.mercatus.org/sites/default/files/styles/large/public/Screen-Shot-2014-07-22-at-12.28.20-PM.png?itok\u003dOpNYchPl",
+          "buttons": [
+            {
+              "text": "Mercatus Financial Markets",
+              "postback": "https://www.mercatus.org/tags/financial-markets"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Office of Financial Research",
+          "subtitle": "Systemic risk, financial markets regulation, dodd-frank, macroprudential supervision, data analytics, risk monitoring, housing reform, derivatives clearing, financial stability, data standards",
+          "imageUrl": "https://www.financialresearch.gov/grants/images/Grants1.jpg",
+          "buttons": [
+            {
+              "text": "OFR Experts",
+              "postback": "https://www.financialresearch.gov/research-staff/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Securities \u0026 Exchange Commission",
+          "subtitle": "securities regulation, high frequency trading, risk analysis, systemic risk regulation, financial technology, derivatives, investor protection, financial economics",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Seal_of_the_United_States_Securities_and_Exchange_Commission.svg/1200px-Seal_of_the_United_States_Securities_and_Exchange_Commission.svg.png",
+          "buttons": [
+            {
+              "text": "US SEC Financial Economists",
+              "postback": "https://www.sec.gov/page/dera_economists"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Cato Institute",
+          "subtitle": "finance, banking, monetary policy, liberty",
+          "imageUrl": "https://object.cato.org/sites/cato.org/files/images/201507_timessq.png",
+          "buttons": [
+            {
+              "text": "Cato Institute Experts",
+              "postback": "https://www.cato.org/people/policy-scholars/finance%2C-banking-%26-monetary-policy"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Ok. Here is a list of $experts ($topic)",
+            "Check out this list of $experts",
+            "Hope these $experts are useful"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

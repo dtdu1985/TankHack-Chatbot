@@ -1,0 +1,369 @@
+{
+  "userSays": [
+    {
+      "id": "fc4057c0-1734-434e-84fb-5969b73836f7",
+      "data": [
+        {
+          "text": "intelligence events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05254744-88ed-4b5f-a619-ba3cd2ed69ac",
+      "data": [
+        {
+          "text": "foreign policy events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c59518fc-bfa4-407f-bb95-509847b4b3ad",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Russia",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "events",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ca44ca7-4446-4752-805b-3e2e093660db",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "China events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1fa13342-596b-4225-89b4-0d007fb5624b",
+      "data": [
+        {
+          "text": "I\u0027m interested military intelligence vents"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "afb1f694-1eea-4406-b84a-778d4607380c",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "foreign policy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " discussions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec1a9021-5da6-42d2-91aa-4044487a8146",
+      "data": [
+        {
+          "text": "I\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "foreign policy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "panels",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55c5f5b0-8533-40fe-b787-8a4b6cc1b290",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "international relations events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "64d146a4-ff5e-4cac-9ba3-747aaafebe5f",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "foreign policy events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "46e962d3-6d12-4e79-920f-c91c0aacd7ef",
+  "name": "events.foreign_policy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@events",
+          "name": "events",
+          "value": "$events",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institution Foreign Policy",
+          "subtitle": "Foreign policy events",
+          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2016/03/Bruce-Jones-G20-Event.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Events",
+              "postback": "https://www.brookings.edu/program/foreign-policy/?type\u003devents"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Heritage Foundation Events",
+          "imageUrl": "https://cdn.theatlantic.com/assets/media/img/mt/2013/09/heritagereagan2/lead_large.jpg",
+          "buttons": [
+            {
+              "text": "Heritage Events",
+              "postback": "http://www.heritage.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Carnegie Endowment for International Peace",
+          "subtitle": "foreign policy, international security, global governance",
+          "imageUrl": "http://carnegieendowment.org/images/event_images/2012-11-26-Peace.jpg",
+          "buttons": [
+            {
+              "text": "Carnegie Events",
+              "postback": "http://carnegieendowment.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Strategic \u0026 International Studies",
+          "imageUrl": "https://i.ytimg.com/vi/nrtUbCi9cao/maxresdefault.jpg",
+          "buttons": [
+            {
+              "text": "CSIS Events",
+              "postback": "https://www.csis.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Council on Foreign Relations",
+          "imageUrl": "http://wallacehouse.umich.edu/wp-content-uploads/2016/02/151201-0086.jpg",
+          "buttons": [
+            {
+              "text": "CFR Events",
+              "postback": "https://www.cfr.org/events?topics\u003d338\u0026regions\u003dAll\u0026sort_by\u003dcreated\u0026sort_order\u003dDESC"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Foreign Policy Council",
+          "imageUrl": "https://i.ytimg.com/vi/QRFy_E93aD0/0.jpg",
+          "buttons": [
+            {
+              "text": "AFPC Events",
+              "postback": "http://www.afpc.org/event_listings/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Cato Institute",
+          "imageUrl": "https://object.cato.org/sites/cato.org/files/styles/resp__img__homepage-items__default-2x/public/raslider/outsidevoices201704190001.jpg?itok\u003dex6AuocG\u0026timestamp\u003d1494615832",
+          "buttons": [
+            {
+              "text": "Cato Institute Events",
+              "postback": "https://www.cato.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "U.S. Senate Committee on Foreign Relations",
+          "subtitle": "U.S. Senate, foreign relations, human rights, foreign policy",
+          "imageUrl": "https://www.foreign.senate.gov/imo/media/image/galleries/4638a831-5056-a032-5288-9ab7e6d07482/040814-19325-0030-rb.jpg",
+          "buttons": [
+            {
+              "text": "U.S. Senate Hearing",
+              "postback": "https://www.foreign.senate.gov/hearings"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "U.S.  House of Reps Foreign Affairs",
+          "imageUrl": "https://i.ytimg.com/vi/C48U48HT4Ck/maxresdefault.jpg",
+          "buttons": [
+            {
+              "text": "U.S House Hearing",
+              "postback": "https://foreignaffairs.house.gov/hearing/"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "here is a list of places with $events (panels, briefings, etc):",
+            "hope you find these useful-- $events (panels, briefings, etc):"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

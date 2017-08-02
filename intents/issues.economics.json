@@ -1,0 +1,222 @@
+{
+  "userSays": [
+    {
+      "id": "714ca5d9-d788-4e8b-adf5-759028d4a401",
+      "data": [
+        {
+          "text": "I want",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " stuff on "
+        },
+        {
+          "text": "Federal Reserve",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        },
+        {
+          "text": " research"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51c90f88-2b97-4064-8dde-4f5c3f931a19",
+      "data": [
+        {
+          "text": "I want to learn about "
+        },
+        {
+          "text": "economic issues",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "99db2ba1-6b21-4761-aef6-1480b808c571",
+      "data": [
+        {
+          "text": "I\u0027m passionated about labor markets"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ca6b694-b95d-494b-82d9-a7f89aeb08cc",
+      "data": [
+        {
+          "text": "Show me what\u0027s hot in "
+        },
+        {
+          "text": "economic policy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46d3c045-923c-4508-8a4d-cc945855d8f1",
+      "data": [
+        {
+          "text": "What\u0027s new in macroeconomics"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f9e5cc2e-3633-4922-9784-9ac23b4731e9",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " central "
+        },
+        {
+          "text": "banking",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e32ced4b-3069-43ed-933b-39678a3fa7f6",
+  "name": "issues.economics",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institution",
+          "subtitle": "Brookings Economic Studies",
+          "imageUrl": "https://lh5.googleusercontent.com/-bnjw3jjoeXc/AAAAAAAAAAI/AAAAAAAABGc/YqxpTlRaZsU/photo.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Economic Studies",
+              "postback": "https://www.brookings.edu/program/economic-studies/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute Economics",
+          "subtitle": "American Enterprise Institute",
+          "imageUrl": "https://pbs.twimg.com/profile_images/760159204032348160/iIjodSjh.jpg",
+          "buttons": [
+            {
+              "text": "AEI",
+              "postback": "http://www.aei.org/policy/economics/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for American Progress",
+          "subtitle": "Center for American Progress",
+          "imageUrl": "https://www.americanprogress.org/content/themes/cap_core/img/CAP-logo-small.png",
+          "buttons": [
+            {
+              "text": "CAP Economics",
+              "postback": "https://www.americanprogress.org/issues/economy/view/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Bipartisan Policy Center",
+          "subtitle": "Bipartisan Policy Center",
+          "imageUrl": "http://cdn.bipartisanpolicy.org/wp-content/themes/bpc/assets/images/logo.svg",
+          "buttons": [
+            {
+              "text": "BPC Economics",
+              "postback": "https://bipartisanpolicy.org/topics/economy/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Cato Institute",
+          "subtitle": "Areas: finance, banking, monetary policy",
+          "imageUrl": "https://object.cato.org/sites/cato.org/files/images/cato40/cato40_homepage_c.jpeg",
+          "buttons": [
+            {
+              "text": "Cato Institute Economics",
+              "postback": "https://www.cato.org/research/finance-banking-monetary-policy"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Economic \u0026 Policy Research",
+          "subtitle": "Labor, growth, inequality, equity",
+          "imageUrl": "http://cepr.net/templates/cepr/images/theworld.png",
+          "buttons": [
+            {
+              "text": "CEPR",
+              "postback": "http://cepr.net/publications/"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Hope this is a good start on $forum for you",
+            "Hope this list of $forum is useful."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

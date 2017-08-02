@@ -1,0 +1,142 @@
+{
+  "userSays": [
+    {
+      "id": "7533d5ac-f1eb-4efb-ab9b-0a4331bbd03c",
+      "data": [
+        {
+          "text": "I want events on "
+        },
+        {
+          "text": "military",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "intelligence",
+          "alias": "forum1",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "eaca4dbd-a5a1-4491-95e5-afc26145721d",
+  "name": "job.foreign_policy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum1",
+          "value": "$forum1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute",
+          "subtitle": "Issues: foreign and defense policy",
+          "imageUrl": "https://lh5.googleusercontent.com/-YsikTqScUmI/AAAAAAAAAAI/AAAAAAAACms/YzHHrgzb2Mg/s0-c-k-no-ns/photo.jpg",
+          "buttons": [
+            {
+              "text": "AEI - foreign and defense policy",
+              "postback": "http://www.aei.org/policy/foreign-and-defense-policy/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Strategic \u0026 International Studies",
+          "subtitle": "Issues: international security, aerospace, China, defense budget, Pacific forum, Russia, Eurasia, smart power, transnational threats",
+          "imageUrl": "https://lh6.googleusercontent.com/-_kQ2m8-qaWM/AAAAAAAAAAI/AAAAAAAAAl4/4gaOyJ42sHs/photo.jpg",
+          "buttons": [
+            {
+              "text": "Center for Strategic \u0026 International Studies",
+              "postback": "https://www.csis.org/top-programs"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "New America Foundation",
+          "subtitle": "Areas: international security, terrorism, cyberwarfare, cybersecurity, future of war",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/New_america_logo14.jpg/250px-New_america_logo14.jpg",
+          "buttons": [
+            {
+              "text": "New America Foundation",
+              "postback": "https://www.newamerica.org/international-security/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Council on Foreign Relations",
+          "subtitle": "Areas: diplomacy, international instititions",
+          "imageUrl": "https://lh4.googleusercontent.com/-OT77CYhoEzc/AAAAAAAAAAI/AAAAAAAAAKU/zmO-z_Wgd8Q/s0-c-k-no-ns/photo.jpg",
+          "buttons": [
+            {
+              "text": "Council on Foreign Relations",
+              "postback": "https://www.cfr.org/diplomacy-and-international-institutions"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Woodrow Wilson Center for International Scholars",
+          "subtitle": "Areas: global governance",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/The_Wilson_Center_Logo_-_Banner.png",
+          "buttons": [
+            {
+              "text": "Wilson Center",
+              "postback": "https://www.wilsoncenter.org/research?topic\u003d151"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Heritage Foundation",
+          "subtitle": "Areas: national security \u0026 defense",
+          "imageUrl": "https://lh4.googleusercontent.com/-rzg8Gaw-edQ/AAAAAAAAAAI/AAAAAAAAUec/eGYK15ujqXs/s0-c-k-no-ns/photo.jpg",
+          "buttons": [
+            {
+              "text": "Heritage: national security \u0026 defense",
+              "postback": "http://origin.heritage.org/issues/national-security-and-defense"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

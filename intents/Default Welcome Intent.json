@@ -1,0 +1,336 @@
+{
+  "userSays": [
+    {
+      "id": "320125cb-6bd4-472b-9d14-f2845236adbe",
+      "data": [
+        {
+          "text": "who are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1742e33-6e56-47ad-a928-9e5f1b34880b",
+      "data": [
+        {
+          "text": "I\u0027m passionated about "
+        },
+        {
+          "text": "education reform",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        },
+        {
+          "text": " matters."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c11cab38-0215-4383-a432-f56bb69e0ac6",
+      "data": [
+        {
+          "text": "I\u0027m interested "
+        },
+        {
+          "text": "immigration issues",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4119413e-172f-4e02-9ed7-d178d0802c83",
+      "data": [
+        {
+          "text": "I want a list of "
+        },
+        {
+          "text": "forums",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c272bbd-470c-4ed8-ab3c-32d348705813",
+      "data": [
+        {
+          "text": "I\u0027m on a "
+        },
+        {
+          "text": "career",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": true
+        },
+        {
+          "text": " search"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6598b787-7163-4a5f-b6ab-74a8d12d9ace",
+      "data": [
+        {
+          "text": "I\u0027m looking for an "
+        },
+        {
+          "text": "internship",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06cf9843-81d9-4917-9d49-5a30b5f3eddd",
+      "data": [
+        {
+          "text": "I want "
+        },
+        {
+          "text": "jobs",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6675789a-feac-4c33-b2c6-bd81b94c0b0a",
+      "data": [
+        {
+          "text": "I want "
+        },
+        {
+          "text": "experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db4e9abf-5fca-49c8-8b38-13a68796c7c7",
+      "data": [
+        {
+          "text": "I want "
+        },
+        {
+          "text": "events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87223be2-141c-4788-853d-4d68ec884f08",
+      "data": [
+        {
+          "text": "what are my available options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9e575f5-2a68-4a1d-8bb9-207019978f32",
+      "data": [
+        {
+          "text": "Show me my options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e72acaeb-dac4-404f-b75f-c2aa103eca27",
+      "data": [
+        {
+          "text": "Good day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cfad326d-2dba-4351-9e48-cf532f181896",
+      "data": [
+        {
+          "text": "What\u0027s up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "183a8185-2209-4d48-a28d-7db70d011969",
+      "data": [
+        {
+          "text": "policy wonks united!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "11c369e2-2078-46db-b951-c38464cc5183",
+      "data": [
+        {
+          "text": "Greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8b0dc50-dc71-4045-b81a-4f3c514dcafb",
+      "data": [
+        {
+          "text": "What are my options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0964b605-31c0-4a5f-b348-2443cb009990",
+      "data": [
+        {
+          "text": "How\u0027s it going?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d20752cd-7b1b-46e0-9a9d-5bd920532a3b",
+      "data": [
+        {
+          "text": "What can you do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03cc8e05-dcfb-4580-acc6-9c9f33c5c691",
+      "data": [
+        {
+          "text": "Hello!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47bc7a11-6876-485d-a4d6-675d39cf6457",
+      "data": [
+        {
+          "text": "Hi!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5568627c-219a-4a2b-b228-297ddba9ffd9",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@experts",
+          "name": "experts",
+          "value": "$experts",
+          "prompts": [
+            "What are you looking for? events, experts, or jobs/internships?",
+            "Are you interested in events, experts, or jobs?",
+            "I can connect you to events, experts, or jobs. Which would you like?"
+          ],
+          "isList": false
+        },
+        {
+          "dataType": "@events",
+          "name": "events",
+          "value": "$events"
+        },
+        {
+          "dataType": "@jobs",
+          "name": "jobs",
+          "value": "$jobs"
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum"
+        }
+      ],
+      "messages": [
+        {
+          "type": 3,
+          "platform": "facebook"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "speech": [
+            "I can show you a list of events, experts, research and jobs impacting the world. For example you can say: \"I like education reform events\".",
+            "I can connect you to events, experts, research and jobs. Say something like : \"Give me a list of health care experts\".",
+            "I can connect you to events, experts, research, jobs. Please say something like : \"I\u0027m passionated about energy policy\".",
+            "I can connect you to events, experts, research and jobs in different areas. You can say, for instance: \"I\u0027m looking for poverty reduction research\".",
+            "I can give you a list of events, experts, research and jobs. Say something like: \"Give me a list of tax policy experts.\"",
+            "I can show you influential events, people, research and jobs. As an example, say: I\u0027m looking for Congressional jobs.",
+            "I can show you influential events, people, research and jobs. As an example, say: I\u0027m looking for White House jobs."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

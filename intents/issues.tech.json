@@ -1,0 +1,475 @@
+{
+  "userSays": [
+    {
+      "id": "2670a1d3-a522-4d05-af2f-f77d27f76a1b",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "government innovation",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2223dd97-97a5-4e91-89d3-5c5d329ebda6",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "open government",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0b8ce66-325d-4fb7-8d4c-a8c38c2cdf4a",
+      "data": [
+        {
+          "text": "need research on "
+        },
+        {
+          "text": "digital innovation",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd92a652-50bd-4dc4-a795-88ae0a8c9f10",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "digital innovation",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "79ea8266-6b66-45c1-b221-5661bc240755",
+      "data": [
+        {
+          "text": "I want to learn about "
+        },
+        {
+          "text": "cyberspace",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " policy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a6f6b86b-bf11-4a9d-bec3-c34cda56f2cf",
+      "data": [
+        {
+          "text": "any research on "
+        },
+        {
+          "text": "cyber crime",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1164e5e-65d1-4b0b-bc58-cc861a6190c1",
+      "data": [
+        {
+          "text": "any research on "
+        },
+        {
+          "text": "cybercrime",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8ebdb65-ae26-423a-a73c-8793ba1b5d57",
+      "data": [
+        {
+          "text": "show me stuff related to "
+        },
+        {
+          "text": "blockchain",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "faa16736-f1a1-436e-b7c5-6c8f135cbe54",
+      "data": [
+        {
+          "text": "give me a list of "
+        },
+        {
+          "text": "blockchain",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e4745364-3bbe-478b-9b93-7a27d471f12a",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "blockchain",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "technology",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "402a5e63-d606-4c20-9216-de9dd6e358c6",
+      "data": [
+        {
+          "text": "I want to learn more about "
+        },
+        {
+          "text": "cyberwarfare",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b98aa67c-e86e-4c39-ad17-d9146caed5a9",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "distributed ledger",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6dcda32-7bc5-4148-bba0-2badfc56fcd7",
+      "data": [
+        {
+          "text": "I\u0027m passionated about "
+        },
+        {
+          "text": "blockchain",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d17ec2d7-a61b-4f3e-b3f8-acf6c53f314d",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "technology policy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33544cb6-759a-4904-bd9f-e9b02e450425",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tech",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " policy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5f4e921-05db-42bd-84c2-9eff4e6c8153",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tech",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1c668608-102e-4f5a-9fbf-57c595adf49a",
+  "name": "issues.tech",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Council on Foreign Relations",
+          "subtitle": "Areas: big data, tech innovations, cyberrisks",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Council_on_Foreign_Relations.svg/1200px-Council_on_Foreign_Relations.svg.png",
+          "buttons": [
+            {
+              "text": "CFR Tech",
+              "postback": "https://www.cfr.org/economics/technology-and-innovation"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Center for Tech Innovation",
+          "subtitle": "Global Internet, tech \u0026 jobs, social media, tech innovations",
+          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2016/07/Metro_20160805_AdvancedIndustries_Header.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Tech Innovation",
+              "postback": "https://www.brookings.edu/center/center-for-technology-innovation/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "New America Foundation",
+          "subtitle": "private, digital rights, open technology",
+          "imageUrl": "https://na-production.s3.amazonaws.com/images/the-cost-of-connectivity-2014_image.original.jpg",
+          "buttons": [
+            {
+              "text": "Open Technology Institute",
+              "postback": "https://www.newamerica.org/oti/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Strategy \u0026 International Studies",
+          "subtitle": "cybersecurity, surveillance, emerging tech, cyber diplomacy,digital economy",
+          "imageUrl": "https://csis-prod.s3.amazonaws.com/s3fs-public/styles/csis_banner/public/program/HiRes.jpg?itok\u003dPHPszue8",
+          "buttons": [
+            {
+              "text": "CSIS Technology Policy",
+              "postback": "https://www.csis.org/programs/technology-policy-program"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Woodrow Wilson Center for International Scholars",
+          "subtitle": "Science \u0026 Technology",
+          "imageUrl": "https://pbs.twimg.com/profile_images/587801107881070592/Ob09U-cc.png",
+          "buttons": [
+            {
+              "text": "Wilson Center Science \u0026 Technology",
+              "postback": "https://www.wilsoncenter.org/program/science-and-technology-innovation-program"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Carnegie Endowment for International peace",
+          "subtitle": "Digital economy, cyber risks, cyberspace, international security, data integrity, space games",
+          "imageUrl": "https://media.licdn.com/media/p/3/000/266/24b/0529e00.png",
+          "buttons": [
+            {
+              "text": "Carnegie\u0027s Technology Issues",
+              "postback": "http://carnegieendowment.org/topic/1531"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Chamber of Digital Commerce",
+          "subtitle": "blockchain technology, distributed ledger, cloud computing, AI, digital economy, digital innovation, digital currency, financial regulation, tech startups",
+          "imageUrl": "http://insidebitcoins.com/wp-content/uploads/2014/11/DigitalChamber-2.jpg",
+          "buttons": [
+            {
+              "text": "Chamber of Digital Commerce",
+              "postback": "https://digitalchamber.org/resources/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "CoinCenter",
+          "subtitle": "bitcoin, digital currency, blockchain tech, emerging tech, digital innovation, financial regulation, laws, compliance, digital economy",
+          "imageUrl": "http://media.coindesk.com/uploads/2014/09/Screen-Shot-2014-09-18-at-4.28.10-PM.png",
+          "buttons": [
+            {
+              "text": "CoinCenter",
+              "postback": "https://coincenter.org/report"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Johns Hopkins Center for Government Excellence",
+          "subtitle": "Open government, big data, open budget, transparency, data standards, government innovation",
+          "imageUrl": "https://govex.jhu.edu/content/themes/govex/assets/images/learn-how-open-data.png",
+          "buttons": [
+            {
+              "text": "JHU GovEx Open Data",
+              "postback": "https://govex.jhu.edu/practice-area/open-data/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Who are driving conversation on $forum? Try these:",
+            "Check out prominent research \u0026 commentary on $forum",
+            "Good choice. Here are some influential voices in $forum:"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

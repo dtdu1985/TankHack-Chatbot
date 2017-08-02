@@ -1,0 +1,233 @@
+{
+  "userSays": [
+    {
+      "id": "7ebb0bb1-9dc1-4643-813c-899634152352",
+      "data": [
+        {
+          "text": "i\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "White House jobs",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "02d43c75-1628-4375-a3de-3ee5e7f6b0c3",
+      "data": [
+        {
+          "text": "trying to find "
+        },
+        {
+          "text": "White",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        },
+        {
+          "text": " House "
+        },
+        {
+          "text": "internships",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0024ead5-855b-4724-9260-77c6f1b47a57",
+      "data": [
+        {
+          "text": "Looking for "
+        },
+        {
+          "text": "White House jobs",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c19c498-5c9f-434a-a1ca-3c60dee31d6a",
+      "data": [
+        {
+          "text": "Looking for a "
+        },
+        {
+          "text": "job with the Administration",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1e29cc5e-9fd1-444a-9d16-58cd50809226",
+      "data": [
+        {
+          "text": "Are there fellowships at the "
+        },
+        {
+          "text": "White House",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fcf1590-0039-43d9-beb1-9987412ea681",
+      "data": [
+        {
+          "text": "I want to run for president"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec9df779-2964-4d3c-98e8-bff489fb946a",
+      "data": [
+        {
+          "text": "I want to work for POTUS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7fb1190-ec40-4bb2-aeac-b7c442a40caf",
+      "data": [
+        {
+          "text": "I want to work for the "
+        },
+        {
+          "text": "White House",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f49142a-158b-4649-abe5-03a7d916c9bd",
+      "data": [
+        {
+          "text": "I\u0027m looking for a "
+        },
+        {
+          "text": "White House",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        },
+        {
+          "text": " internship"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e77544dd-323c-44e7-a966-136d4abc7d81",
+  "name": "job.potus",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@jobs",
+          "name": "jobs",
+          "value": "$jobs",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        },
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "WHITE HOUSE INTERNSHIPS",
+          "subtitle": "WHITE HOUSE INTERNSHIP",
+          "imageUrl": "https://www.whitehouse.gov/profiles/forall/modules/custom/gov_whitehouse_www/images/icons/wh_logo_seal.png",
+          "buttons": [
+            {
+              "text": "WHITE HOUSE INTERNSHIP",
+              "postback": "https://www.whitehouse.gov/participate/internships/apply"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "White House Fellowship Program",
+          "subtitle": "White House Fellowship",
+          "imageUrl": "https://www.whitehouse.gov/profiles/forall/modules/custom/gov_whitehouse_www/images/icons/wh_logo_seal.png",
+          "buttons": [
+            {
+              "text": "White House Fellowship Program",
+              "postback": "https://www.whitehouse.gov/participate/fellows/application"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Here are some resources for $jobs."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

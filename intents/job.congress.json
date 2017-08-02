@@ -1,0 +1,288 @@
+{
+  "userSays": [
+    {
+      "id": "366c6d6d-27c4-405b-ad59-f1393d8c7a94",
+      "data": [
+        {
+          "text": "I want to work for the US Senate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fcfea19-d687-4da9-8b90-4e271d07f4c6",
+      "data": [
+        {
+          "text": "I want to become a "
+        },
+        {
+          "text": "Congressional",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        },
+        {
+          "text": " staff"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e5e99df2-d81e-48d8-8d32-6ab00f52b077",
+      "data": [
+        {
+          "text": "trying to find "
+        },
+        {
+          "text": "Congressional",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "career",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea4104a7-bf90-4d3c-b1be-83fe611dcfba",
+      "data": [
+        {
+          "text": "I\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Congressional internships",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55561ad1-ac25-416a-b0d7-afc592b7fa6a",
+      "data": [
+        {
+          "text": "I want to analyze legislative proposals"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09622822-3b17-4272-81d2-c1997680205d",
+      "data": [
+        {
+          "text": "I want to become a "
+        },
+        {
+          "text": "speechwriter",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6befff36-ce47-40fa-98b2-82c4056a3364",
+      "data": [
+        {
+          "text": "I want to work for a "
+        },
+        {
+          "text": "Congressional",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        },
+        {
+          "text": " committee"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4bcd9e0-7e2b-4ba0-befb-1ebce026c86c",
+      "data": [
+        {
+          "text": "I want an internship with "
+        },
+        {
+          "text": "Congress",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83a8d751-90a7-41be-89ff-9101972f7b59",
+      "data": [
+        {
+          "text": "I want to work for a Congressional member"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "733cad2e-a2da-4622-9d7d-8acde04557cc",
+      "data": [
+        {
+          "text": "Looking for a Congressional internship"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68abfa80-9cf8-4732-8815-0b95438e3477",
+      "data": [
+        {
+          "text": "I want a job with "
+        },
+        {
+          "text": "Congress",
+          "alias": "jobs",
+          "meta": "@jobs",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fbd4ac39-18ab-4735-a3f0-1c1e57a6acec",
+  "name": "job.congress",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@jobs",
+          "name": "jobs",
+          "value": "$jobs",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "U.S. House of Representatives",
+          "subtitle": "Sign up for jobs bulletin updates with U.S. House",
+          "imageUrl": "http://www.house.gov/content/static/img/houseLogoPrint.png",
+          "buttons": [
+            {
+              "text": "U.S. House of Reps Jobs Bulletin",
+              "postback": "http://www.house.gov/content/jobs/hvaps_subscribe.php"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "U.S. Senate jobs/internship bulletin",
+          "subtitle": "Jobs/internship bulletin",
+          "imageUrl": "https://www.senate.gov/employment/po/graphic/employment_bulletin_mast.gif",
+          "buttons": [
+            {
+              "text": "U.S. Senate jobs",
+              "postback": "https://www.senate.gov/employment/po/positions.htm"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Congressional Budget Office",
+          "subtitle": "Budget analysis, federal fiscal policy, microeconomic studies, health care analysis, state budget analysis, scoring bills and proposals",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/CBO_logo.png",
+          "buttons": [
+            {
+              "text": "CBO jobs/internships",
+              "postback": "https://www.cbo.gov/about/careers/jobs"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "U.S. Government Accountability Office",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/US-GovernmentAccountabilityOffice-Logo.svg/720px-US-GovernmentAccountabilityOffice-Logo.svg.png",
+          "buttons": [
+            {
+              "text": "GAO: Research Arm of Congress",
+              "postback": "http://www.gao.gov/careers/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Congressional Research Service",
+          "subtitle": "Environmental policy, health, immigration, housing, financial policy, international trade",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Congressional_Research_Service.svg/420px-Congressional_Research_Service.svg.png",
+          "buttons": [
+            {
+              "text": "Congressional Research Service",
+              "postback": "https://www.loc.gov/crsinfo/opportunities/"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "You can start here for $jobs (jobs, internships, career):",
+            "Hope this is useful for $jobs (jobs, internships, etc):"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

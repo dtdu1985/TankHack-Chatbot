@@ -1,0 +1,360 @@
+{
+  "userSays": [
+    {
+      "id": "7ad65cdf-bcc7-4352-82fb-0ec29ebbdac5",
+      "data": [
+        {
+          "text": "foreign relations "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd115b75-d0cd-4ef5-9ce2-30861b54e220",
+      "data": [
+        {
+          "text": "military experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2383458-9548-4477-b21f-0ba99763bd4b",
+      "data": [
+        {
+          "text": "intelligence experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca1c9764-dfde-4b69-80b7-64544676633b",
+      "data": [
+        {
+          "text": "need list of "
+        },
+        {
+          "text": "foreign policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e3532d0-b04c-49dd-89a2-7c44eb35896d",
+      "data": [
+        {
+          "text": "options for "
+        },
+        {
+          "text": "international relations experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "105cd710-9a9c-4c23-8c65-130295372ae9",
+      "data": [
+        {
+          "text": "give me a list of "
+        },
+        {
+          "text": "foreign policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef08641f-2e8d-4fda-8232-a2a31b7d4622",
+      "data": [
+        {
+          "text": "I\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "nuclear proliferation",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e7df27e-ef80-4143-a18d-a7982a0ef75a",
+      "data": [
+        {
+          "text": "any "
+        },
+        {
+          "text": "China experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        },
+        {
+          "text": " available?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c94349c-3d37-42e3-b992-370110006cfe",
+      "data": [
+        {
+          "text": "military "
+        },
+        {
+          "text": "intelligence experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "edfdf509-bb52-470a-b97f-1089efb8b05f",
+      "data": [
+        {
+          "text": "show me a list of "
+        },
+        {
+          "text": "international security experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e21f4c7d-8f6b-4869-8380-01f63bd259b1",
+      "data": [
+        {
+          "text": "any "
+        },
+        {
+          "text": "international relations",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "specialists",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab13db7e-4580-490a-9a8d-2164b1f879f8",
+      "data": [
+        {
+          "text": "connect me to",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " some "
+        },
+        {
+          "text": "foreign policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9f87b9ad-b013-4f93-b53b-21a080b136f4",
+  "name": "experts.foreign_policy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@experts",
+          "name": "experts",
+          "value": "$experts",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Council on Foreign Relations",
+          "subtitle": "diplomacy \u0026 international institutions, international security",
+          "imageUrl": "https://www.cfr.org/content/publications/20120509_CFR_TF_1090.jpg",
+          "buttons": [
+            {
+              "text": "CFR Diplomacy \u0026 International Institutions",
+              "postback": "https://www.cfr.org/experts?topics\u003d339\u0026regions\u003dAll\u0026sort_by\u003dfield_name_family\u0026sort_order\u003dASC"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Strategic \u0026 International Studies",
+          "subtitle": "Defense \u0026 security",
+          "imageUrl": "https://csis-ilab.github.io/annual_report2016/images/green_blair.jpg",
+          "buttons": [
+            {
+              "text": "CSIS Defense \u0026 Security Experts",
+              "postback": "https://www.csis.org/experts/fellows/vasey?\u0026field_categories_field_topics[0]\u003d817"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Carnegie Endowment for International Peace",
+          "subtitle": "defense \u0026 security",
+          "imageUrl": "http://news.xinhuanet.com/english/2016-07/07/CnybnyE005026_20160706_NYMFN0A001_11n.jpg",
+          "buttons": [
+            {
+              "text": "Carnegie\u0027s Experts",
+              "postback": "http://carnegieendowment.org/experts"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Johns Hopkins SAIS IR Experts",
+          "subtitle": "strategic policy, Transatlantic, US-Korea, China-US, international security, NATO",
+          "imageUrl": "http://static6.businessinsider.com/image/541dc12cecad04e05271d1b0-480/hank-paulson-ben-bernanke-tim-geithner-chris-cox-john-duggan.png",
+          "buttons": [
+            {
+              "text": "SAIS",
+              "postback": "https://www.sais-jhu.edu/initiatives-institutes-and-research-centers"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institution Foreign Policy Experts",
+          "subtitle": "US-Europe, East Asia, US-China, US-Taiwan, Middle East, Nuclear proliferation, international security",
+          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2016/06/cameron_africa001-1.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Experts",
+              "postback": "https://www.brookings.edu/experts/?s\u003d\u0026topic\u003d\u0026pcp\u003dprogram_foreign-policy\u0026language\u003den\u0026status\u003dcurrent\u0026start_date\u003d\u0026end_date\u003d"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for American Progress Experts",
+          "subtitle": "Middle East, South Asia, Asia Pacific, US-Japan, defense policy, federal budget,  US-China, international security",
+          "imageUrl": "https://cdn.americanprogress.org/wp-content/uploads/2012/09/18063020/AP03121002376-620x399.jpg",
+          "buttons": [
+            {
+              "text": "CAP Foreign Policy Experts",
+              "postback": "https://www.americanprogress.org/experts-by-issue/?termid\u003d21570/"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "here are some prominent $experts (specialists):",
+            "you can try to connect to with these $experts:"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

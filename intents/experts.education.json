@@ -1,0 +1,221 @@
+{
+  "userSays": [
+    {
+      "id": "a9ce5199-f157-4109-b966-5a9f34bb5699",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " a list of "
+        },
+        {
+          "text": "education experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1a313f3d-1a6c-4817-bafe-ee7c8f5f3add",
+      "data": [
+        {
+          "text": "give me a list of "
+        },
+        {
+          "text": "education experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "70b962e2-add2-4170-9ff2-1232f9d7557e",
+      "data": [
+        {
+          "text": "show me a list of "
+        },
+        {
+          "text": "public education experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37413785-58b7-44fc-b676-c921f7378ab1",
+      "data": [
+        {
+          "text": "i\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "education policy specialists",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ace307e-b066-43f0-88c8-970d3118c6d1",
+      "data": [
+        {
+          "text": "connect me to",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "education policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2b5d61c8-2ba3-4eb2-96d0-028c0cc6c03a",
+  "name": "experts.education",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@experts",
+          "name": "experts",
+          "value": "$experts",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institution education experts",
+          "subtitle": "governance, higher education, K-12, education reform, urban (metropolitan policy)",
+          "imageUrl": "https://i.ytimg.com/vi/szfZ3KmSkXA/hq720.jpg",
+          "buttons": [
+            {
+              "text": "Brookings education",
+              "postback": "https://www.brookings.edu/experts/?s\u003d\u0026topic\u003d\u0026pcp\u003dcenter_brown-center-on-education-policy\u0026language\u003den\u0026status\u003dcurrent\u0026start_date\u003d\u0026end_date\u003d"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute",
+          "subtitle": "school reform, chart school, public investment, school choice,college financing",
+          "imageUrl": "https://pbs.twimg.com/media/CPB8rTQWIAA32sP.jpg",
+          "buttons": [
+            {
+              "text": "AEI education",
+              "postback": "http://www.aei.org/scholars/education-experts-highlights-and-headlines/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center fo American Progress",
+          "subtitle": "higher education, early childhood, public investment, college transparency, college financing, urban social policy",
+          "imageUrl": "https://cdn.americanprogress.org/wp-content/uploads/events/2006/10/images/latinos_event.jpg",
+          "buttons": [
+            {
+              "text": "CAP Education Experts",
+              "postback": "https://www.americanprogress.org/experts-by-issue/?termid\u003d21701/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "New America Foundation",
+          "subtitle": "",
+          "imageUrl": "https://s-media-cache-ak0.pinimg.com/736x/f7/c3/33/f7c33306876e01f643097a73dbc73607.jpg",
+          "buttons": [
+            {
+              "text": "New America Education",
+              "postback": "https://www.newamerica.org/education-policy/our-people/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "The Century Foundation Experts",
+          "subtitle": "educational inequality, K-12, early childhood, higher ed,",
+          "imageUrl": "https://production-tcf.imgix.net/app/uploads/2016/06/01180615/kimberly-cover-photo.jpg?auto\u003dcompress\u0026q\u003d100\u0026fit\u003dcrop\u0026w\u003d380\u0026h\u003d260",
+          "buttons": [
+            {
+              "text": "Century Foundation Ed Experts",
+              "postback": "https://tcf.org/experts/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Institutes for Research",
+          "subtitle": "K-12, early childhood, higher education",
+          "imageUrl": "http://educationpolicy.air.org/sites/default/files/TeacherPolicyBriefCover.png",
+          "buttons": [
+            {
+              "text": "AIR Center Ed Policy",
+              "postback": "http://educationpolicy.air.org"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Okay. Here are some influential $experts (specialists, experts, analysts..)",
+            "Check out these influential voices in $expects ((specialists, experts, analysts..)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

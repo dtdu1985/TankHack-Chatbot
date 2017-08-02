@@ -1,0 +1,142 @@
+{
+  "userSays": [
+    {
+      "id": "1f9332df-0e95-46c7-872a-eca71bda1a3c",
+      "data": [
+        {
+          "text": "any good global "
+        },
+        {
+          "text": "development forums",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8190551a-0da9-441e-af67-bc8d7bb26aab",
+      "data": [
+        {
+          "text": "I like",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " to attend "
+        },
+        {
+          "text": "global development events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de924dcf-da98-400e-a1b2-dc333655f474",
+      "data": [
+        {
+          "text": "I want to attend "
+        },
+        {
+          "text": "international development events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f8b6623-3caa-4863-9ab1-92c641a8beee",
+      "data": [
+        {
+          "text": "give me a list of "
+        },
+        {
+          "text": "international development events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b4cb4398-6f10-4e1e-8383-a2323e2992c4",
+  "name": "events.development",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@events",
+          "name": "events",
+          "value": "$events",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Carnegie Endowment for International Peace",
+          "imageUrl": "http://carnegieendowment.org/images/event_images/2014-04-08-ChinaWeapons.jpg",
+          "buttons": [
+            {
+              "text": "Carnegie Events",
+              "postback": "http://carnegieendowment.org/events"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institution",
+          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2016/05/0616_CEPM_Panel1.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Events",
+              "postback": "https://www.brookings.edu/events/"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "here some places hosting $events (e.g. forums, events, panels):",
+            "some $events to consider (e.g. forums, panels, discussions):"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

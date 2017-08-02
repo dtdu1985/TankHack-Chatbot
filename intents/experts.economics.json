@@ -1,0 +1,436 @@
+{
+  "userSays": [
+    {
+      "id": "d4adc387-4ba6-45bf-94a9-457b224c996d",
+      "data": [
+        {
+          "text": "get me a list of "
+        },
+        {
+          "text": "economic experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a668916-a2df-4e81-a468-64b5f141b9d2",
+      "data": [
+        {
+          "text": "how about a list of "
+        },
+        {
+          "text": "international",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "economic experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "575f8354-7b40-4679-a7cb-a89919dbbcea",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "economic policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a98b6a2-1017-40c2-8999-5689d46668a9",
+      "data": [
+        {
+          "text": "give me a list of "
+        },
+        {
+          "text": "economic policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5bc0e3ca-7ae6-476f-aa33-f79179711237",
+      "data": [
+        {
+          "text": "connect me with",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "central banking experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91e05057-c972-4c1c-8c5d-2c57c5463f8a",
+      "data": [
+        {
+          "text": "I want a list of "
+        },
+        {
+          "text": "international",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "economic experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e63ec22c-de2e-48b9-9052-979a26ec85b9",
+      "data": [
+        {
+          "text": "give me a list of "
+        },
+        {
+          "text": "mortgage experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d266a003-d8ad-4154-b06b-26379ae47093",
+      "data": [
+        {
+          "text": "connect me with",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "housing experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d848a499-851d-4220-8e64-a3494fa504bb",
+      "data": [
+        {
+          "text": "any labor market "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        },
+        {
+          "text": " available?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "604d2df8-2e89-4e88-888a-61617af58408",
+      "data": [
+        {
+          "text": "connect me to",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "central banking experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c08dd5ad-ddd5-4e4e-8412-b8d4a4d4b9eb",
+      "data": [
+        {
+          "text": "connect me with",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " macroeconomic "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "315002f2-4137-45be-88b8-237b54dcdc25",
+      "data": [
+        {
+          "text": "I want",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "economic experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "99cbe97c-a024-4b99-96a7-1ef123bf22cf",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " a list of "
+        },
+        {
+          "text": "economic experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dc114f92-8756-467c-9384-f2ca08b4a91b",
+  "name": "experts.economics",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@experts",
+          "name": "experts",
+          "value": "$experts",
+          "isList": false
+        },
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Economic Experts",
+          "subtitle": "Areas: financial reform, mortgages, banking regulation, central bank, growth, international trade \u0026 finance, metropolitan,",
+          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2016/01/0212_Hutchins_Panel3.jpg",
+          "buttons": [
+            {
+              "text": "Brookings - Economic Experts",
+              "postback": "https://www.brookings.edu/experts/?s\u003deconomics\u0026topic\u003d\u0026pcp\u003dprogram_economic-studies\u0026language\u003den\u0026status\u003dcurrent\u0026start_date\u003d\u0026end_date\u003d"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute",
+          "subtitle": "Areas: housing risk, macroeconomics, economic mobility, growth, tech",
+          "imageUrl": "https://i.ytimg.com/vi/Ks_x_q0T-Os/maxresdefault.jpg",
+          "buttons": [
+            {
+              "text": "AEI Economic Experts",
+              "postback": "https://www.aei.org/scholars/economics-experts-highlights-and-headlines/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Strategic \u0026 International Studies",
+          "subtitle": "Areas: Southeast Asia, China, Korea, Japan, Africa, Eurasia, U.S. leadership",
+          "imageUrl": "https://csis-prod.s3.amazonaws.com/s3fs-public/styles/csis_banner/public/event/170308_economic_imperative_of_empowering_women_2.jpg?_MQv3ulohKBLLkPkxETTCehlXn8qQiMe\u0026itok\u003dGhxhOE7q",
+          "buttons": [
+            {
+              "text": "CSIS Economic Experts",
+              "postback": "https://www.csis.org/experts?\u0026field_categories_field_topics[0]\u003d823"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "New America Foundation",
+          "subtitle": "Areas: open markets",
+          "imageUrl": "https://media.glassdoor.com/o/262427/new-america-foundation-office.jpg",
+          "buttons": [
+            {
+              "text": "NAF - open markets",
+              "postback": "https://www.newamerica.org/open-markets/our-people/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for American Progress",
+          "subtitle": "Areas: housing • financial regulation • international finance • equitable growth • workforce development • federal budget",
+          "imageUrl": "http://c8.alamy.com/comp/H5DK4E/us-senator-tammy-baldwin-r-listens-to-economic-advisor-gene-sperling-H5DK4E.jpg",
+          "buttons": [
+            {
+              "text": "CAP: Economic Experts",
+              "postback": "https://www.americanprogress.org/experts-by-issue/?termid\u003d21700/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Institute for International Economics",
+          "subtitle": "Areas: Basel • international monetary policy • international trade • currency crisis • financial markets, banking regulation and supervision,",
+          "imageUrl": "https://ustr.gov/sites/default/files/11062013-TPP-Cutler.jpg",
+          "buttons": [
+            {
+              "text": "IIE - economic experts",
+              "postback": "https://piie.com/experts"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "facebook"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Urban Institute",
+          "subtitle": "Economic • Growth • and Productivity",
+          "imageUrl": "http://www.urban.org/sites/all/themes/urban/images/logo.png",
+          "buttons": [
+            {
+              "text": "Urban Institute Experts",
+              "postback": "http://www.urban.org/experts/economic-growth-and-productivity"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Urban Institute",
+          "subtitle": "Housing •  Housing Finance • Financial Regulation • Securitization • Financial Policy",
+          "imageUrl": "https://livingcities.s3.amazonaws.com/image/343/sixteen_large.jpg",
+          "buttons": [
+            {
+              "text": "Urban Institute-Mortgage, Housing, Regulation",
+              "postback": "http://www.urban.org/experts/housing-and-housing-finance"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Economic Policy Institute",
+          "subtitle": "Labor market • workforce development • Macroeconomics • Globalization • Social insurance • Public investment",
+          "imageUrl": "https://d2vhh8hm4ve9yg.cloudfront.net/img/organizations/m_52f1636cd431a_economic_policy_institute.jpg",
+          "buttons": [
+            {
+              "text": "EPI experts",
+              "postback": "http://www.epi.org/experts/"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Scroll through here for a list of $experts (experts, advisors, researchers, etc)",
+            "Great. Here are some prominent $experts (experts, advisors, researchers, etc)",
+            "Here is a list of influential $experts (experts, advisors, researchers, etc)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

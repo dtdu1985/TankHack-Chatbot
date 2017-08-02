@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "f3117a4d-0f29-43c2-9f77-42acb87f048d",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Having trouble deciphering your question. What are you interested in? For example, \"I\u0027m interested in banking issues\"",
+            "Misunderstood your last statement. What are you interested in? For example, \"I\u0027m interested in health care issues\"",
+            "Sorry, I didn\u0027t quite grasp what you just said.What are you interested in? For example, \"I\u0027m interested in health care issues\"",
+            "I don\u0027t think I\u0027m qualified to answer that yet. What are you interested in? For example, \"I\u0027m interested in education policy events\"",
+            "I\u0027m a bit confused by that last part. What are you interested in? For example, \"I\u0027m interested in economic policy panels\"",
+            "I\u0027m not totally sure about that. What are you interested in? For example, \"I\u0027m interested in energy issues\"",
+            "I\u0027m not sure I follow.What are you interested in? For example, \"I\u0027m interested in health care reform issues\"",
+            "I\u0027m afraid I don\u0027t understand.What are you interested in? For example, \"I\u0027m interested in foreign policy experts\"",
+            "I\u0027m a bit confused.What are you interested in? For example, \"I\u0027m interested in economic policy experts\""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,244 @@
+{
+  "userSays": [
+    {
+      "id": "3717470c-64f7-43b7-b0e3-b551ec120bd2",
+      "data": [
+        {
+          "text": "list of "
+        },
+        {
+          "text": "cyberspace",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8f3fbaf-1791-418f-ad47-b250c62e3f3c",
+      "data": [
+        {
+          "text": "list of "
+        },
+        {
+          "text": "bitcoin",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32a150ba-bcf6-455b-8b7c-420644f6e3fd",
+      "data": [
+        {
+          "text": "list of "
+        },
+        {
+          "text": "digital currency",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "experts",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d662f591-b1a4-478f-b15d-8f798150dd08",
+      "data": [
+        {
+          "text": "list of "
+        },
+        {
+          "text": "blockchain experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "43ea5a2d-61f7-4866-b60e-98af3e886384",
+      "data": [
+        {
+          "text": "a list of "
+        },
+        {
+          "text": "tech policy experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f9874de-3e93-450f-bff8-7e7db7284406",
+      "data": [
+        {
+          "text": "get me a list of "
+        },
+        {
+          "text": "tech experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4da174d7-3b33-4f8e-9f7f-787824fc20f1",
+      "data": [
+        {
+          "text": "give me a list of "
+        },
+        {
+          "text": "tech experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "39cc3059-6dae-4a25-aec5-e4311638c7a4",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "tech experts",
+          "alias": "experts",
+          "meta": "@experts",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "763a40f1-f99c-4e12-ab39-bbd8656245f0",
+  "name": "experts.tech",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@experts",
+          "name": "experts",
+          "value": "$experts",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Strategic \u0026 International Studies",
+          "subtitle": "Tech Policy Center",
+          "imageUrl": "https://csis-prod.s3.amazonaws.com/s3fs-public/styles/csis_banner/public/program/HiRes.jpg?itok\u003dPHPszue8",
+          "buttons": [
+            {
+              "text": "CSIS Tech Policy",
+              "postback": "https://www.csis.org/programs/technology-policy-program/experts-and-staff"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Woodrow Wilson Center International Scholars",
+          "imageUrl": "http://archive.defense.gov/dodcmsshare/photoessay/2014-05/hires_140502-D-NI589-064a.jpg",
+          "buttons": [
+            {
+              "text": "Wilson Center - Tech \u0026 Innovation",
+              "postback": "https://www.wilsoncenter.org/experts"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Council on Foreign Relations",
+          "subtitle": "Digital and Cyberspace Policy",
+          "imageUrl": "https://www.cfr.org/content/publications/images/RTXA59W%20-%20Net%20Gov%20small.jpg",
+          "buttons": [
+            {
+              "text": "CFR Digital Cyberspace",
+              "postback": "https://www.cfr.org/programs/digital-and-cyberspace-policy-program"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Some prominent voices in $tech to check out:",
+            "Connect with these influential $tech (specialists):"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

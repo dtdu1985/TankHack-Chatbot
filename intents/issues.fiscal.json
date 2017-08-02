@@ -1,0 +1,329 @@
+{
+  "userSays": [
+    {
+      "id": "a7ac5c48-2b19-466a-999c-87d71802033e",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "fiscal reform",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "caa94c8f-a3b4-46a6-8888-391fcd61283b",
+      "data": [
+        {
+          "text": "interested in research on "
+        },
+        {
+          "text": "deficit",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55508c3f-3286-487a-85cd-3d516e19929e",
+      "data": [
+        {
+          "text": "learn about "
+        },
+        {
+          "text": "deficit",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03291dc1-905d-43b0-ab0a-4f63437f7d14",
+      "data": [
+        {
+          "text": "research on "
+        },
+        {
+          "text": "budget outlook",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c42e04c3-0de3-4e4d-9d93-f8cd0a071434",
+      "data": [
+        {
+          "text": "any commentary on "
+        },
+        {
+          "text": "infrastructure spending",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9737cfc7-f986-4726-b8d1-c371003e7f5d",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "federal fiscal",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " policy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d87074a5-3c64-44a8-9402-f984f763035b",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "federal budget",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "942c2b82-1ed5-4da9-9bf8-064ea4297ac3",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "fiscal",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " analysis"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3e6e3111-6cce-4f8b-84b8-bd709ad6e0c7",
+      "data": [
+        {
+          "text": "i\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "public finance",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b2ceafd7-61d9-4de1-89be-69296147c382",
+  "name": "issues.fiscal",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Fiscal Policy",
+          "subtitle": "federal budget, taxation, infrastructure, public finance, spending outlook, economic growth, entitlements",
+          "imageUrl": "https://i.ytimg.com/vi/-1pFBA1pMSY/sddefault.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Fiscal Issues",
+              "postback": "https://www.brookings.edu/topic/federal-fiscal-policy/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Urban Institute Budget \u0026 Taxes",
+          "subtitle": "tax and social policy, U.S. tax issues, business taxes, reforms",
+          "imageUrl": "http://www.urban.org/sites/all/themes/urban/images/logo.png",
+          "buttons": [
+            {
+              "text": "Urban Institute Budget Taxes",
+              "postback": "http://www.urban.org/research-area/taxes-and-budget"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Tax Policy Center",
+          "subtitle": "budget \u0026 tax policy",
+          "imageUrl": "http://www.taxpolicycenter.org/sites/all/themes/tpc_theme/logo.png",
+          "buttons": [
+            {
+              "text": "Tax Policy Center",
+              "postback": "http://www.taxpolicycenter.org/research-commentary"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Congressional Budget Office",
+          "subtitle": "budget impact, economic \u0026 budget projections, legislative proposal, tax proposals, spending bills",
+          "imageUrl": "https://www.cbo.gov/sites/default/files/styles/800/public/cbofiles/images/capitol/Capitol-home-9.png",
+          "buttons": [
+            {
+              "text": "CBO Fiscal Policy",
+              "postback": "https://www.cbo.gov/about/products/major-recurring-reports"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Cato Institute",
+          "subtitle": "tax and budget policies, public finance, corporate welfare, global tax competition, state \u0026 local fiscal policy",
+          "imageUrl": "https://object.cato.org/sites/cato.org/files/default_images/catoresearch_fb.jpg",
+          "buttons": [
+            {
+              "text": "Cato Institute",
+              "postback": "https://www.cato.org/research/tax-budget-policy"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Bipartisan Policy Center Economy",
+          "subtitle": "",
+          "imageUrl": "https://cdn.bipartisanpolicy.org/wp-content/uploads/2014/12/GG10480.jpg",
+          "buttons": [
+            {
+              "text": "Bipartisan Policy Center",
+              "postback": "https://bipartisanpolicy.org/research/?topic\u003deconomy"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center on Budget Policy Priorities",
+          "subtitle": "federal budget, federal tax, state budget and taxes, social policy \u0026 inequality,",
+          "imageUrl": "http://www.cbpp.org/sites/all/themes/custom/cbpp/logo.png",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for American Progress",
+          "subtitle": "fiscal policy",
+          "imageUrl": "https://cdn.americanprogress.org/wp-content/uploads/2014/07/09093216/BoserColumn.jpg",
+          "buttons": [
+            {
+              "text": "CAP fiscal policy",
+              "postback": "https://www.americanprogress.org/tag/budget-tax-and-infrastructure/view/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Heritage Foundation",
+          "subtitle": "government budget \u0026 spending",
+          "imageUrl": "https://lh4.googleusercontent.com/-rzg8Gaw-edQ/AAAAAAAAAAI/AAAAAAAAUec/eGYK15ujqXs/s0-c-k-no-ns/photo.jpg",
+          "buttons": [
+            {
+              "text": "Heritage Foundation",
+              "postback": "http://www.heritage.org/budget-and-spending"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Institute for International Economics",
+          "subtitle": "Taxes, fiscal policy, public finance",
+          "imageUrl": "https://piie.com/sites/default/files/header-images/piie-front-street.jpg",
+          "buttons": [
+            {
+              "text": "PIIE Taxes",
+              "postback": "https://piie.com/research/finance/taxes"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "some trending analysis to keep you informed",
+            "in-depth analysis on $forum for you"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

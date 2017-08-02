@@ -1,0 +1,36 @@
+{
+  "userSays": [
+    {
+      "id": "f6359a21-2d41-4859-821f-8e6077db5491",
+      "data": [
+        {
+          "text": "I want central banking panels"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "0202585b-a4c0-4d5e-93ec-a1c6a558a74d",
+  "name": "events.finance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,216 @@
+{
+  "userSays": [
+    {
+      "id": "16c0a5ec-8860-4156-b521-2e8c775bc201",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "education reform",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "5010f702-dd55-448b-9eb3-dd1dd9705669",
+      "data": [
+        {
+          "text": "I\u0027m focusing on "
+        },
+        {
+          "text": "education issues",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5daf296-3bbf-4c77-9fbe-2aead9857a1a",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " research on "
+        },
+        {
+          "text": "K-12",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "161b14db-baed-4a1f-afc1-3402ae7c2fab",
+      "data": [
+        {
+          "text": "do you have anything on "
+        },
+        {
+          "text": "education reform",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b45bfa44-8507-498a-b03b-9571e569e0f4",
+      "data": [
+        {
+          "text": "I\u0027m passionated about "
+        },
+        {
+          "text": "education",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8593593e-0afb-4474-840e-6479fe2059f7",
+      "data": [
+        {
+          "text": "I\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "school voucher",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        },
+        {
+          "text": " research"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1b6c49dc-64f6-4d61-bdb8-5f6d3be87f2c",
+  "name": "issues.education",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Education",
+          "subtitle": "Areas",
+          "imageUrl": "https://i.ytimg.com/vi/szfZ3KmSkXA/hq720.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Education",
+              "postback": "https://www.brookings.edu/education/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute",
+          "subtitle": "areas: school choice, education reform",
+          "imageUrl": "https://pbs.twimg.com/profile_images/760162181979770880/dOgJPChA.jpg",
+          "buttons": [
+            {
+              "text": "AEI Education",
+              "postback": "http://www.aei.org/policy/education/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Heritage Foundation Ed",
+          "subtitle": "school choice, education innovation, education investments",
+          "imageUrl": "https://images.c-span.org/Files/9b5/20160802150628001_hd.jpg/Thumbs/height.630.no_border.width.1200.jpg",
+          "buttons": [
+            {
+              "text": "Heritage Foundation Education",
+              "postback": "http://www.heritage.org/education"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for American Progress Education",
+          "subtitle": "economic mobility, education investments, higher education risk sharing, college transparency,",
+          "imageUrl": "http://diverseeducation.com/wp-content/uploads/2013/12/121913_Center_American_Progress.jpg",
+          "buttons": [
+            {
+              "text": "CAP Education",
+              "postback": "https://www.americanprogress.org/issues/education/view/"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Here are some prominent research \u0026 commentary on $forum.",
+            "Here are impactful reading on $forum"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

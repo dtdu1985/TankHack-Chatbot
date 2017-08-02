@@ -1,0 +1,266 @@
+{
+  "userSays": [
+    {
+      "id": "d76098ae-113a-4cfe-a81d-2f547e6e9073",
+      "data": [
+        {
+          "text": "health care discussion",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8beed1e8-f80d-48a3-a1fc-d27f514adb15",
+      "data": [
+        {
+          "text": "health care policy events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "543369c8-92a7-411e-92e9-3b7f249d9b34",
+      "data": [
+        {
+          "text": "any good "
+        },
+        {
+          "text": "health care",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " reform "
+        },
+        {
+          "text": "events",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6051aa20-1bbd-47e2-a7c8-c809da86c691",
+      "data": [
+        {
+          "text": "health seminars",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": true
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ed1dc05d-fb01-4e3b-adce-2ff7972d2438",
+      "data": [
+        {
+          "text": "health care events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d8595d0-a5e1-4c24-8528-c5aec11fe608",
+      "data": [
+        {
+          "text": "i\u0027m looking for",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "public health events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e5e8ebb-20f1-4b40-9b07-7a767a3d32bb",
+      "data": [
+        {
+          "text": "i\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "health care events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5298ecd8-3e7d-4363-86fc-5cce30cf43e3",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "health",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "panels",
+          "alias": "menu_choice",
+          "meta": "@menu_choice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23975534-d3d5-420e-a4e9-16b44436de43",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "health events",
+          "alias": "events",
+          "meta": "@events",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6de7da4f-2d26-40e4-9411-81b99b5286a5",
+  "name": "events.health",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@events",
+          "name": "events",
+          "value": "$events",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@menu_choice",
+          "name": "menu_choice",
+          "value": "$menu_choice",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institution Health Policy Center",
+          "subtitle": "Health Policy Events",
+          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2016/07/0719_GS_Discussion.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Events",
+              "postback": "https://www.brookings.edu/center/center-for-health-policy/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Urban Institute",
+          "subtitle": "center for health policy",
+          "imageUrl": "http://www.urban.org/sites/default/files/styles/urban_wire_landing_thumbnail_300x200/public/20160614_longevity-event_thompson_137-blog_0.jpg?itok\u003dYHBnWe_J",
+          "buttons": [
+            {
+              "text": "Urban Institute Events",
+              "postback": "http://www.urban.org/policy-centers/health-policy-center/events"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Here is a list of $events (panels, briefings, etc):",
+            "Hope you find these useful $events (panels, briefings, etc):"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

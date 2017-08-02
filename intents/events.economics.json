@@ -1,0 +1,173 @@
+{
+  "userSays": [
+    {
+      "id": "6e4a8ca0-3181-44e8-bdfa-3279f381169b",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " economic panels"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "813ac780-95c6-414f-ab6f-30268a58aeec",
+      "data": [
+        {
+          "text": "any good "
+        },
+        {
+          "text": "monetary policy events",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efcc83f4-67fe-45c5-8c33-649a6f004d9d",
+      "data": [
+        {
+          "text": "give me options for "
+        },
+        {
+          "text": "central banking events",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f311cc8-cca1-40ad-951b-4a51f474732c",
+      "data": [
+        {
+          "text": "I need",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " a list of "
+        },
+        {
+          "text": "labor market events",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "62ad03a2-d766-4dad-81da-71fff8d27a22",
+      "data": [
+        {
+          "text": "I want to attend "
+        },
+        {
+          "text": "economic events",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6b0eaa8b-39ef-4cef-97de-ec329fb3a173",
+  "name": "events.economics",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Institution Events",
+          "subtitle": "economics, finance, labor,fiscal, monetary policy",
+          "imageUrl": "http://drrichswier.com/wp-content/uploads/President-Obama-Delivers-Speech-Economy-Brookings-YDrRRcbEbral.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Events",
+              "postback": "https://www.brookings.edu/events/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "American Enterprise Institute",
+          "subtitle": "economics",
+          "imageUrl": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/14334383_570187873177953_7262887270603030528_n.jpg",
+          "buttons": [
+            {
+              "text": "AEI Events",
+              "postback": "http://www.aei.org/events/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Strategic \u0026 International Studies",
+          "imageUrl": "https://csis-prod.s3.amazonaws.com/s3fs-public/styles/csis_small/public/event/170517_lgbt_rights_0.jpg?PSbOjoOxHg0fkxCt4mYjQnh6RsLl0LGQ\u0026itok\u003d3NXrSqrl",
+          "buttons": [
+            {
+              "text": "CSIS economy experts",
+              "postback": "https://www.csis.org/experts?\u0026field_categories_field_topics[0]\u003d823"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Ok. Here\u0027s a list of prominent events. Scroll through for specifics.",
+            "Here is a start on $forum (panels, briefings, forums)!",
+            "Here are some options for you:"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

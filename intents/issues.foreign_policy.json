@@ -1,0 +1,323 @@
+{
+  "userSays": [
+    {
+      "id": "dd5f5fea-a6a9-48fa-b919-6a436821426c",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "cyberrisk",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c5f5f6c-900c-4610-ad3d-ed58bfd0d572",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "counterterrorism",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "454dcba1-013a-49f8-8142-8e229887cf0e",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "military intelligence",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cff0b2d-07c7-4794-8e35-9eb1ebec439a",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "counterintelligence",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ca1239d-c03b-421c-9941-7056e737b0de",
+      "data": [
+        {
+          "text": "interested in intelligence issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c4c122f-2d05-46a0-98c5-67a7707a1c34",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "military",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        },
+        {
+          "text": " policy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ffce44f4-fb7f-4c03-abc2-01d538105c2f",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "China",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ab27567-27bd-40da-8ab0-250ca807997f",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "China",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " research material"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e22a91fa-0dc4-49ac-98fe-c88362e5bf7a",
+      "data": [
+        {
+          "text": "I\u0027m interest "
+        },
+        {
+          "text": "nuclear proliferation",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f17d992a-f4fe-4295-a83f-2657900b96f9",
+      "data": [
+        {
+          "text": "i\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "cyberwarfare",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "afcf9f57-2dc4-46db-a7cd-e671da90ae12",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "foreign policy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " analysis"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "50a1ff2f-fbfe-49a7-84f7-ce28d33214e8",
+      "data": [
+        {
+          "text": "passionated about foreign relations"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "381af558-8f64-4846-9224-facbaae3d9f5",
+      "data": [
+        {
+          "text": "interested in foreign relations issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "313e6fb0-532c-4270-890d-d29a4ab2c036",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "foreign policy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " research"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1645394a-c687-4ff6-8815-3d8ec367da6f",
+  "name": "issues.foreign_policy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        },
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Carnegie Endowment for International Peace",
+          "subtitle": "Research, commentary , blogs,",
+          "imageUrl": "http://honors.nova.edu/images/news/carnegie_flag.jpg",
+          "buttons": [
+            {
+              "text": "Carnegie\u0027s Foreign Policy",
+              "postback": "http://carnegieendowment.org/publications/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Woodrow Wilson for International Scholars",
+          "imageUrl": "https://www.culturaltourismdc.org/portal/image/image_gallery?uuid\u003d04e3e98b-52f2-4ff7-a27b-580eda0f12b3\u0026groupId\u003d701982\u0026t\u003d1395418661697",
+          "buttons": [
+            {
+              "text": "Wilson Center",
+              "postback": "https://www.wilsoncenter.org/research"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "U.S. Institute of Peace",
+          "subtitle": "conflict resolution, peace process, civilian-military relations, democracy \u0026 governance, gender, mediation, electoral process",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/United_States_Institute_of_Peace.jpg/1200px-United_States_Institute_of_Peace.jpg",
+          "buttons": [
+            {
+              "text": "Institute of Peace",
+              "postback": "https://www.usip.org/issue-areas"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for Strategic \u0026 International Studies",
+          "imageUrl": "https://csis-prod.s3.amazonaws.com/s3fs-public/styles/csis_banner/public/event/151116_GSF_foreign_policy_priorities.jpg?itok\u003dLPrh5pRj",
+          "buttons": [
+            {
+              "text": "CSIS Issue Areas",
+              "postback": "https://www.csis.org/top-programs"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "here is a list of $forum (issues, research, commentary)",
+            "here are some $forum(issues, research, commentary)",
+            "hope these are useful in $forum(issues, research, commentary)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

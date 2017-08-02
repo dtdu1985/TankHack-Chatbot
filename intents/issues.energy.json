@@ -1,0 +1,401 @@
+{
+  "userSays": [
+    {
+      "id": "be467aa1-d16d-42ae-a22b-edef7fd1ce56",
+      "data": [
+        {
+          "text": "I\u0027m interested in renewable energy analysis"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e34987a8-0fbc-4cf5-afac-4b9c65e9f391",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "renewable energy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d150568-c46a-412e-9c41-53bdbd1db36d",
+      "data": [
+        {
+          "text": "get me research on "
+        },
+        {
+          "text": "green energy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9540d973-4775-4fdb-b967-ba2536b1665d",
+      "data": [
+        {
+          "text": "I\u0027m passionated about the "
+        },
+        {
+          "text": "environment",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c28ac8c-0ec2-40b1-8c31-1539c49885af",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "renewable energy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " research"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1921370e-5422-41c1-b1e1-2caedc84f764",
+      "data": [
+        {
+          "text": "need material on renewable "
+        },
+        {
+          "text": "energy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54e6eaeb-f13f-4577-8301-65335651f58a",
+      "data": [
+        {
+          "text": "passionated about "
+        },
+        {
+          "text": "climate change",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f79d626-9a50-42fe-bb61-91219dcc71ac",
+      "data": [
+        {
+          "text": "interested in "
+        },
+        {
+          "text": "global warming",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d12c7f1-a2b2-4415-bab8-5b372b3e794d",
+      "data": [
+        {
+          "text": "research on "
+        },
+        {
+          "text": "environment policy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cc6bb07d-4bc0-4917-a398-3800daa08966",
+      "data": [
+        {
+          "text": "research on "
+        },
+        {
+          "text": "energy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8ddc5c4-65c5-4a55-ac7e-0712292e10ed",
+      "data": [
+        {
+          "text": "looking for "
+        },
+        {
+          "text": "energy research",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a0af0ae5-3d10-4add-be9b-f7dd4a760b74",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "energy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " policy issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38cb186e-28c5-4b13-885a-eb0ad4f3a053",
+      "data": [
+        {
+          "text": "I\u0027m focusing on "
+        },
+        {
+          "text": "climate change",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " policy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a44a642c-bfc1-49a2-8571-52f96df99c88",
+      "data": [
+        {
+          "text": "give me research on "
+        },
+        {
+          "text": "global warming",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ebc64c0-7683-4581-98d3-5684d6f81b8d",
+      "data": [
+        {
+          "text": "I\u0027m interested in",
+          "alias": "user_request",
+          "meta": "@user_request",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "energy",
+          "alias": "forum",
+          "meta": "@forum",
+          "userDefined": false
+        },
+        {
+          "text": " issues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4128ce66-8d7e-4518-be2d-bff30d628ba0",
+  "name": "issues.energy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@user_request",
+          "name": "user_request",
+          "value": "$user_request",
+          "isList": false
+        },
+        {
+          "dataType": "@forum",
+          "name": "forum",
+          "value": "$forum",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Brookings Energy \u0026 Climate",
+          "subtitle": "Areas: energy, climate",
+          "imageUrl": "https://www.brookings.edu/wp-content/uploads/2017/04/windfarm_ocean001.jpg",
+          "buttons": [
+            {
+              "text": "Brookings Energy \u0026 Climate",
+              "postback": "https://www.brookings.edu/project/energy-security-and-climate-initiative/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Aspen Institute Energy \u0026 Environmental Program",
+          "subtitle": "Areas: energy, food, water",
+          "imageUrl": "https://pbs.twimg.com/profile_images/378800000863716861/3AmMBpzr_400x400.png",
+          "buttons": [
+            {
+              "text": "Aspen Institute",
+              "postback": "https://www.aspeninstitute.org/programs/energy-and-environment-program/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Center for American Progress",
+          "imageUrl": "https://cdn.americanprogress.org/content/uploads/2017/05/24111558/india-monsoon.jpg",
+          "buttons": [
+            {
+              "text": "CAP Energy and Environment",
+              "postback": "https://www.americanprogress.org/issues/green/view/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Earth Institute",
+          "subtitle": "Areas: climate, water, energy",
+          "imageUrl": "http://www.earth.columbia.edu/img/feature/energy/Smart-Solar.jpg",
+          "buttons": [
+            {
+              "text": "Earth Institute",
+              "postback": "http://www.earth.columbia.edu/articles/view/1788"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "World Resources Institute",
+          "imageUrl": "https://www.wri.org/sites/default/files/styles/whats_happening/public/WRI_2014TopOutcomes_GreenClimateFund_650x500_0.jpg?itok\u003deZhjozUk",
+          "buttons": [
+            {
+              "text": "World Resources Institute",
+              "postback": "http://www.wri.org/publication"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Pew Center on Global Climate Change",
+          "imageUrl": "https://www.c2es.org/sites/all/themes/pew/logo.png",
+          "buttons": [
+            {
+              "text": "Pew Center",
+              "postback": "https://www.c2es.org/newsroom"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Worldwatch Institute",
+          "subtitle": "Climate, energy, food, agriculture",
+          "imageUrl": "http://www.worldwatch.org/sites/all/themes/acquia_prosper/ww_color_logo.png",
+          "buttons": [
+            {
+              "text": "Worldwatch Institute",
+              "postback": "http://www.worldwatch.org/climate-energy"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "here\u0027s some prominent research \u0026 analysis on $forum",
+            "research on $forum shaping the larger conversation",
+            "some prominent writing on $forum"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
